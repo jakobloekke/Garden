@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
    
    // Adapted from getPageSize() by quirksmode.com
    function getPageHeight() {
-      var windowHeight
+      var windowHeight;
       if (self.innerHeight) {   // all except Explorer
          windowHeight = self.innerHeight;
       } else if (document.documentElement && document.documentElement.clientHeight) { // Explorer 6 Strict Mode

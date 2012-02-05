@@ -344,7 +344,7 @@ jQuery(document).ready(function($) {
             gettingNew--;
          }
       });
-   }
+   };
    
    // Load new comments like a chat.
    var autoRefresh = gdn.definition('Vanilla_Comments_AutoRefresh', 10) * 1000;

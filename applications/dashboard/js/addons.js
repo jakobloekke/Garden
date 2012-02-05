@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
    gdn.clearAddonErrors  = function() {
       $('div.TestAddonErrors:not(.Hidden)').remove();
       $('.TinyProgress').remove();
-   }
+   };
    gdn.fillAddonErrors = function(errorMessage) {
       $('.TinyProgress').remove();
       err = $('div.TestAddonErrors');
@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
       $('div.TestAddonErrors:first').removeClass('Hidden');
       // $(window).scrollTop($("div.TestAddonErrors").offset().top);
       $(window).scrollTop();
-   }
+   };
 
    // Ajax-test addons before enabling
    $('a.PreviewAddon').click(function() {

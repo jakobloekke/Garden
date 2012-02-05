@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
          return false;
       
       });
-   }
+   };
    $('#Form_ConversationMessage :submit').handleMessageForm();
    
    // Utility function to clear out the message form

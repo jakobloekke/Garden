@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
       var save = function() {
          var currentVal = $(textarea).val();
          if (currentVal != undefined && currentVal != '' && currentVal != lastVal) {
-            lastVal = currentVal
+            lastVal = currentVal;
             $(options.button).click();
          }
       };

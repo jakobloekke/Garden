@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
          + '&messages=' + gdn.definition('CountConversationMessages', 0)
          + '&discussions=' + gdn.definition('CountDiscussions', 0)
          + '&comments=' + gdn.definition('CountComments', 0)
-         + '&updateChecks=' + updateChecks
+         + '&updateChecks=' + updateChecks;
 
       $.ajax({
          type: "POST",

@@ -42,6 +42,6 @@ jQuery(document).ready(function($) {
           }
       }, options || {});   
       frm.ajaxForm(options);
-   }
+   };
    $('form').handleAppModify();
 });

@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 				$.popup({}, XMLHttpRequest.responseText);
 			}
 		});
-	}
+	};
 
    var bindAjaxForm = function() {
       $('form').ajaxForm({

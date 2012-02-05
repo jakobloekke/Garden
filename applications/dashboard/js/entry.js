@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
       } else {
          $('#ConnectPassword').show();
       }
-   }
+   };
 
    checkConnectName();
    $('#Form_ConnectName').blur(checkConnectName);
