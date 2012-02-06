@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b415a9cc-996f-4d6c-93bd-a42dabe59c68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/about.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
     </list>
     <ignored path="Garden.iws" />
@@ -31,51 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="class.lydmaskinenthemehooks.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62068963">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.master.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.125">
+            <state line="5" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.125">
               <folding>
-                <marker date="1328534556000" expanded="true" signature="964:1213" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="994:1213" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="1030:1213" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="1076:1154" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="1590:1628" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="3125:3176" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="3147:3176" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="3250:3279" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="3309:3611" placeholder="..." />
-                <marker date="1328534556000" expanded="true" signature="3849:4013" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="505:521" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="1325:1363" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="2860:2911" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="2882:2911" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="2985:3014" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="3044:3346" placeholder="..." />
+                <marker date="1328541752000" expanded="true" signature="3498:3512" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vanilla.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="601" selection-end="601" vertical-scroll-proportion="0.49137932">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="71" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -95,22 +72,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/applications/dashboard/js/import.js" />
-        <option value="$PROJECT_DIR$/applications/dashboard/js/settings.js" />
-        <option value="$PROJECT_DIR$/applications/dashboard/js/applications.js" />
-        <option value="$PROJECT_DIR$/applications/dashboard/js/addons.js" />
-        <option value="$PROJECT_DIR$/applications/conversations/js/conversations.js" />
-        <option value="$PROJECT_DIR$/applications/dashboard/js/entry.js" />
-        <option value="$PROJECT_DIR$/applications/vanilla/js/discussion.js" />
-        <option value="$PROJECT_DIR$/applications/dashboard/design/error.css" />
         <option value="$PROJECT_DIR$/plugins/HtmLawed/htmLawed/htmLawedTest.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/vanilla/views/categories/all.php" />
         <option value="$PROJECT_DIR$/applications/vanilla/views/discussion/index.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
         <option value="$PROJECT_DIR$/applications/conversations/controllers/class.conversationscontroller.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/LydmaskinenThemeHook.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.LydmaskinenThemeHook.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehook.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/about.php" />
+        <option value="$PROJECT_DIR$/conf/config.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.tpl" />
+        <option value="$PROJECT_DIR$/applications/vanilla/settings/class.hooks.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
       </list>
     </option>
   </component>
@@ -253,15 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,11 +244,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,15 +291,6 @@
     </servers>
   </component>
   <component name="RunManager" selected="PHP Web Application.MAMP">
-    <configuration default="false" name="index.php" type="JavascriptDebugSession" factoryName="Remote" temporary="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" value="http://localhost:8000/Garden/index.php" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
@@ -372,6 +346,15 @@
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.php" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="http://localhost:8000/Garden/index.php" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <list size="4">
@@ -433,15 +416,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.67071825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.9988552" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25490198" sideWeight="0.44309393" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.31049722" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.3524862" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5005525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.53038675" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -489,7 +472,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some refactoring and merging of legacy lydmaskinen_v2 code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved lydmaskinen css into vanilla.css to improve integration with &quot;the vanilla way&quot;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -508,6 +491,7 @@
     <MESSAGE value="Fixed logout/login link in menu" />
     <MESSAGE value="Added lydmaskinen_v2 theme" />
     <MESSAGE value="Some refactoring and merging of legacy lydmaskinen_v2 code." />
+    <MESSAGE value="Moved lydmaskinen css into vanilla.css to improve integration with &quot;the vanilla way&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -517,127 +501,129 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/mine.php">
+    <entry file="file://$PROJECT_DIR$/applications/conversations/settings/structure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index.php">
+    <entry file="file://$PROJECT_DIR$/applications/vanilla/settings/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
+    <entry file="file://$PROJECT_DIR$/applications/conversations/settings/configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="77" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/views/categories/all.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index_rss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/modules/class.headmodule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="28" selection-start="2674" selection-end="2680" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/controllers/class.vanillacontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="13" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44973546">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/controllers/class.settingscontroller.php">
+    <entry file="file://$PROJECT_DIR$/applications/conversations/settings/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="4327" selection-end="4327" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/conversations/settings/class.hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="19" selection-start="4169" selection-end="4169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mobile/class.mobilethemehooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="34" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1328468460000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/dashboard/modules/class.headmodule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="22" selection-start="2674" selection-end="2674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/admin.master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="1246" selection-end="1246" vertical-scroll-proportion="1.0847881">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/core/class.controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="916" column="0" selection-start="32531" selection-end="32531" vertical-scroll-proportion="0.0">
+        <state line="1424" column="41" selection-start="51347" selection-end="51347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/conversations/controllers/class.messagescontroller.php">
+    <entry file="file://$PROJECT_DIR$/conf/constants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0">
+        <state line="9" column="19" selection-start="323" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/conversations/controllers/class.conversationscontroller.php">
+    <entry file="file://$PROJECT_DIR$/applications/dashboard/views/settings/themeoptions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="30" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+        <state line="40" column="26" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-7.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
+    <entry file="file://$PROJECT_DIR$/conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="7" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.69560045">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.125">
+        <state line="5" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.125">
           <folding>
-            <marker date="1328534556000" expanded="true" signature="964:1213" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="994:1213" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="1030:1213" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="1076:1154" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="1590:1628" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="3125:3176" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="3147:3176" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="3250:3279" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="3309:3611" placeholder="..." />
-            <marker date="1328534556000" expanded="true" signature="3849:4013" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="505:521" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="1325:1363" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="2860:2911" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="2882:2911" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="2985:3014" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="3044:3346" placeholder="..." />
+            <marker date="1328541752000" expanded="true" signature="3498:3512" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/README.txt">
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="71" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="601" selection-end="601" vertical-scroll-proportion="0.49137932">
+        <state line="24" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.62068963">
           <folding />
         </state>
       </provider>

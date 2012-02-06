@@ -1,3 +1,10 @@
+<?php
+    //TODO: Change this to use global constant for path:
+    $pathToTheme = "http://localhost/Garden/themes/lydmaskinen_v2";
+
+
+
+?>
 <!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -7,21 +14,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<?php
-
-
-
-        $this->RenderAsset('Head');
-    ?>
-	
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="stylesheet" href="/Vanilla/themes/Lydmaskinen/design/lydmaskinen.css?v=1">
-
-	<script src="/Vanilla/themes/Lydmaskinen/js/libs/modernizr-1.7.min.js" type="text/javascript"></script>
-
+	<?php $this->RenderAsset('Head') ?>
 
 </head>
 <body id="<?= $BodyIdentifier; ?>" class="<?= $this->CssClass; ?>">
@@ -29,7 +23,7 @@
 	<div id="header-container">
 		<header class="wrapper clearfix">
 			<a href="#" class="banner" id="topbanner">
-				<img src="/Vanilla/themes/Lydmaskinen/banners/gajolbanner.jpg" />
+				<img src="<?=$pathToTheme?>/banners/gajolbanner.jpg" />
 			</a>
 			<h1 class="leftcol" id="title"><a href="<?php echo Url('/'); ?>">Lydmaskinen</a></h1>
 
@@ -108,11 +102,6 @@
 
    </div>
 
-	<script src="/Vanilla/themes/Lydmaskinen/js/script.js" type="text/javascript"></script>
-	<!--[if lt IE 7 ]>
-	<script src="/Vanilla/themes/Lydmaskinen/js/libs/dd_belatedpng.js" type="text/javascript"></script>
-	<script type="text/javascript"> DD_belatedPNG.fix('img, .png_bg');</script>
-	<![endif]-->
 	<script>
 		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
 		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
