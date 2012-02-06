@@ -38,15 +38,10 @@
 			</nav>
 			
 			<div id="searchbox" class="Search leftcol">
-				<?php
-					$Form = Gdn::Factory('Form');
-					$Form->InputPrefix = '';
-					echo 
-						$Form->Open(array('action' => Url('/search'), 'method' => 'get')),
-						$Form->TextBox('Search'),
-						$Form->Button('Go', array('Name' => '')),
-						$Form->Close();
-				?>
+                <form action="<?=Url('/search')?>" method="get">
+                    <input type="text" name="Search" placeholder="Søg på Lydmaskinen" />
+                    <input type="submit" value="Søg"  />
+                </form>
 			</div>
 			
 			<div class="toolbar rightcol">
@@ -95,7 +90,7 @@
 				&middot;
 				<a href="#" class="team">Holdet bag websitet</a>
 				&middot;
-				<span>© Copyright 2011 Lydmaskinen.dk</span>
+				<span>© Copyright <?= DATE("Y") ?> Lydmaskinen.dk</span>
 				
 				<?php
 					$this->RenderAsset('Foot');

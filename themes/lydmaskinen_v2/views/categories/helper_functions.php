@@ -34,3 +34,31 @@ function GetOptions($Category, $Sender) {
       return $Result;
    }
 }
+
+/**
+ * @param $AllCategories
+ * @param $SelectedCategories
+ * @return HTML list items for matching categories ("<li>")
+ */
+function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Resultset, Array of category names)
+{
+    foreach ($SelectedCategories as $Selected) {
+        foreach ($AllCategories as $Category) {
+            if ( $Category->Name == $Selected ) {
+                echo
+                    "<li>
+					<img class='iconlist-icon' width='49' height='49' src='/Vanilla/themes/Lydmaskinen/design/images/content/$Category->UrlCode.jpg' />
+					<div class='iconlist-content'>
+						<h4><a href='/Vanilla/categories/$Category->UrlCode'>$Category->Name</a></h4>
+						<p>$Category->Description</p>
+						<p class='meta'>
+							".Gdn_Format::Date($Category->DateLastComment).":
+							<a href='/Vanilla/discussion/$Category->LastDiscussionID/$Category->LastDiscussionName'>$Category->LastDiscussionName</a>
+							af $Category->LastCommentName
+						</p>
+					</div>
+				</li>";
+            };
+        }
+    }
+}
