@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b415a9cc-996f-4d6c-93bd-a42dabe59c68" name="Default" comment="Fixed logout/login link in menu">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/vanilla/views/categories/all.php" afterPath="" />
+    <list default="true" id="b415a9cc-996f-4d6c-93bd-a42dabe59c68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
     </list>
     <ignored path="Garden.iws" />
@@ -32,19 +31,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="all.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
+      <file leaf-file-name="default.master.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="7" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.6763006">
+            <state line="13" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.125">
+              <folding>
+                <marker date="1328534556000" expanded="true" signature="964:1213" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="994:1213" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="1030:1213" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="1076:1154" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="1590:1628" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="3125:3176" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="3147:3176" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="3250:3279" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="3309:3611" placeholder="..." />
+                <marker date="1328534556000" expanded="true" signature="3849:4013" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vanilla.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="44" selection-start="601" selection-end="601" vertical-scroll-proportion="0.49137932">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helper_functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
+      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="77" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
+            <state line="7" column="71" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/applications/vanilla/js/autosave.js" />
         <option value="$PROJECT_DIR$/applications/dashboard/js/import.js" />
         <option value="$PROJECT_DIR$/applications/dashboard/js/settings.js" />
         <option value="$PROJECT_DIR$/applications/dashboard/js/applications.js" />
@@ -76,11 +105,12 @@
         <option value="$PROJECT_DIR$/applications/dashboard/design/error.css" />
         <option value="$PROJECT_DIR$/plugins/HtmLawed/htmLawed/htmLawedTest.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/vanilla/views/categories/all.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
         <option value="$PROJECT_DIR$/applications/vanilla/views/discussion/index.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
+        <option value="$PROJECT_DIR$/applications/conversations/controllers/class.conversationscontroller.php" />
       </list>
     </option>
   </component>
@@ -231,11 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
+              <option name="myItemId" value="design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,165 +275,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vanilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vanilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discussion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vanilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vanilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversations" />
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,6 +382,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="Show Constants,Show Includes,Show Inherited,Show Fields" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -564,9 +439,9 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.67071825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.9988552" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.44309393" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.54917127" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.9988552" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25490198" sideWeight="0.44309393" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5005525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.53038675" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -614,7 +489,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lydmaskinen_v2 theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some refactoring and merging of legacy lydmaskinen_v2 code." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -632,6 +507,7 @@
     <MESSAGE value="Minor corrections after code inspection" />
     <MESSAGE value="Fixed logout/login link in menu" />
     <MESSAGE value="Added lydmaskinen_v2 theme" />
+    <MESSAGE value="Some refactoring and merging of legacy lydmaskinen_v2 code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,85 +517,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/core/class.request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="525" column="19" selection-start="18178" selection-end="18178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussion/embed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="82" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/core/class.auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="421" column="19" selection-start="14440" selection-end="14440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/core/class.controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="916" column="19" selection-start="32550" selection-end="32550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/skeleton/controllers/class.skeletoncontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/conversations/views/messages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="788" selection-end="788" vertical-scroll-proportion="0.3480663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="36" selection-start="3253" selection-end="3264" vertical-scroll-proportion="-11.875">
-          <folding>
-            <marker date="1328529916000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussion/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="366" selection-end="366" vertical-scroll-proportion="0.15807962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/discussions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="542" selection-end="542" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index_rss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/mine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -748,9 +545,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index_rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/dashboard/modules/class.headmodule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="28" selection-start="2674" selection-end="2680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/vanilla/controllers/class.vanillacontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/vanilla/controllers/class.settingscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4327" selection-end="4327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/core/class.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="916" column="0" selection-start="32531" selection-end="32531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/conversations/controllers/class.messagescontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/conversations/controllers/class.conversationscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="30" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="7" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.6763006">
+        <state line="39" column="7" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.69560045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.125">
+          <folding>
+            <marker date="1328534556000" expanded="true" signature="964:1213" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="994:1213" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="1030:1213" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="1076:1154" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="1590:1628" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="3125:3176" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="3147:3176" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="3250:3279" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="3309:3611" placeholder="..." />
+            <marker date="1328534556000" expanded="true" signature="3849:4013" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="71" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="601" selection-end="601" vertical-scroll-proportion="0.49137932">
           <folding />
         </state>
       </provider>
