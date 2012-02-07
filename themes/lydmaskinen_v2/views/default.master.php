@@ -35,7 +35,7 @@
 			<div id="searchbox" class="Search leftcol">
                 <form action="<?=Url('/search')?>" method="get">
                     <input type="text" name="Search" placeholder="Søg på Lydmaskinen" />
-                    <input type="submit" value="S√∏g"  />
+                    <input type="submit" value="Søg"  />
                 </form>
 			</div>
 
@@ -69,7 +69,7 @@
                         <?= showBubbleIfCount(0, "red") ?>
                     &middot;
                     <a class="newposts" href="#">
-                        Nye indl√¶g
+                        Nye indlæg
                         <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadDiscussions, "blue") ?>
                     </a>
                     &middot;

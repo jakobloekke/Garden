@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b415a9cc-996f-4d6c-93bd-a42dabe59c68" name="Default" comment="Some restructuring&#10;">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/vanilla.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" />
+    <list default="true" id="b415a9cc-996f-4d6c-93bd-a42dabe59c68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/admin.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/admin.master.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
     </list>
     <ignored path="Garden.iws" />
@@ -34,15 +32,11 @@
       <file leaf-file-name="default.master.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="496" selection-end="496" vertical-scroll-proportion="0.19320843">
+            <state line="71" column="33" selection-start="2700" selection-end="2700" vertical-scroll-proportion="2.009434">
               <folding>
-                <marker date="1328647281000" expanded="true" signature="368:384" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="1297:1335" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="3472:3523" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="3494:3523" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="3597:3626" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="3656:3958" placeholder="..." />
-                <marker date="1328647281000" expanded="true" signature="4110:4124" placeholder="..." />
+                <marker date="1328653557000" expanded="true" signature="1297:1335" placeholder="..." />
+                <marker date="1328653557000" expanded="true" signature="3870:3959" placeholder="..." />
+                <marker date="1328653557000" expanded="true" signature="4111:4125" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -316,7 +310,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig" serverName="Lydmaskinen - QA (Mobilseddel)" serverId="e00c66e7-5774-43b1-b074-75702a6d3fd3">
+  <component name="PublishConfig" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="Lydmaskinen - QA (Mobilseddel)" serverId="e00c66e7-5774-43b1-b074-75702a6d3fd3" deleteMissingItems="true" createEmptyFolders="true">
     <servers>
       <server id="e00c66e7-5774-43b1-b074-75702a6d3fd3">
         <serverdata>
@@ -465,7 +459,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.67071825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.9988552" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -473,14 +467,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.53038675" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2622549" sideWeight="0.33038673" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2622549" sideWeight="0.66187847" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2622549" sideWeight="0.22099447" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2622549" sideWeight="0.44198895" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -520,7 +514,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some restructuring&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some special chars" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -541,6 +535,8 @@
     <MESSAGE value="Some refactoring and merging of legacy lydmaskinen_v2 code." />
     <MESSAGE value="Moved lydmaskinen css into vanilla.css to improve integration with &quot;the vanilla way&quot;" />
     <MESSAGE value="Some restructuring&#10;" />
+    <MESSAGE value="Fixed paths to css and setup staging server" />
+    <MESSAGE value="Fixed some special chars" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -647,15 +643,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="496" selection-end="496" vertical-scroll-proportion="0.19320843">
+        <state line="71" column="33" selection-start="2700" selection-end="2700" vertical-scroll-proportion="2.009434">
           <folding>
-            <marker date="1328647281000" expanded="true" signature="368:384" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="1297:1335" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="3472:3523" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="3494:3523" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="3597:3626" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="3656:3958" placeholder="..." />
-            <marker date="1328647281000" expanded="true" signature="4110:4124" placeholder="..." />
+            <marker date="1328653557000" expanded="true" signature="1297:1335" placeholder="..." />
+            <marker date="1328653557000" expanded="true" signature="3870:3959" placeholder="..." />
+            <marker date="1328653557000" expanded="true" signature="4111:4125" placeholder="..." />
           </folding>
         </state>
       </provider>
