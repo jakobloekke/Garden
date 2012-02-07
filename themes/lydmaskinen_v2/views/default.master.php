@@ -1,10 +1,3 @@
-<?php
-    //TODO: Change this to use global constant for path:
-    $pathToTheme = "http://localhost/Garden/themes/lydmaskinen_v2";
-
-
-
-?>
 <!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -15,7 +8,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<?php $this->RenderAsset('Head') ?>
+	<?php
+        $this->Head->addCSS("themes/lydmaskinen_v2/design/lydmaskinen.css");
+        $this->RenderAsset('Head');
+    ?>
 
 </head>
 <body id="<?= $BodyIdentifier; ?>" class="<?= $this->CssClass; ?>">
@@ -23,7 +19,7 @@
 	<div id="header-container">
 		<header class="wrapper clearfix">
 			<a href="#" class="banner" id="topbanner">
-				<img src="<?=$pathToTheme?>/banners/gajolbanner.jpg" />
+				<img src="<?= Url("/") ?>themes/lydmaskinen_v2/banners/gajolbanner.jpg" />
 			</a>
 			<h1 class="leftcol" id="title"><a href="<?php echo Url('/'); ?>">Lydmaskinen</a></h1>
 
@@ -42,22 +38,45 @@
                     <input type="submit" value="Søg"  />
                 </form>
 			</div>
+
+
+
+
+            <?php
+            /**
+             * @param $count
+             * @param $cssClass CSS class that matches a color name
+             * @todo Get this into generalized function file!!!
+             * @return string
+             */function showBubbleIfCount($count, $cssClass) {
+                    if ($count > 0) {
+                        return "<span class='bubble ".$cssClass."'>".$count."</span>";
+                    }
+                }
+            ?>
 			
 			<div class="toolbar rightcol">
                 <?php if (Gdn::Session()->IsValid()) { ?>
                     <a class="profile" href="/profile">Din profil</a>
                     &middot;
-                    <a class="favourites" href="#">Favoritter <span class="bubble">
-                        <?= Gdn::Session()->User->CountBookmarks ?></span>
+                    <a class="favourites" href="#">
+                        Favoritter
+                        <?= showBubbleIfCount(Gdn::Session()->User->CountBookmarks, "red") ?>
                     </a>
                     &middot;
-                    <a class="messages" href="#">Beskeder <span class="bubble red">-</span></a>
+                    <a class="messages" href="#">
+                        Beskeder
+                        <?= showBubbleIfCount(0, "red") ?>
                     &middot;
-                    <a class="newposts" href="#">Nye indlæg <span class="bubble blue">
-                        <?= Gdn::Session()->User->CountUnreadDiscussions ?>
-                    </span></a>
+                    <a class="newposts" href="#">
+                        Nye indlæg
+                        <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadDiscussions, "blue") ?>
+                    </a>
                     &middot;
-                    <a class="karma" href="#">Karma <span class="bubble green">-</span></a>
+                    <a class="karma" href="#">
+                        <Karma></Karma>
+                        <?= showBubbleIfCount(10, "green") ?>
+                    </a>
 				<?php } ?>
 
 				<span class="stayright">
