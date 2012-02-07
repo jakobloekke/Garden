@@ -108,7 +108,7 @@
 				&middot;
 				<a href="#" class="team">Holdet bag websitet</a>
 				&middot;
-				<span>¬© Copyright <?= DATE("Y") ?> Lydmaskinen.dk</span>
+				<span>Copyright <?= DATE("Y") ?> Lydmaskinen.dk</span>
 				
 				<?php
 					$this->RenderAsset('Foot');
