@@ -35,7 +35,7 @@
 			<div id="searchbox" class="Search leftcol">
                 <form action="<?=Url('/search')?>" method="get">
                     <input type="text" name="Search" placeholder="Søg på Lydmaskinen" />
-                    <input type="submit" value="Søg"  />
+                    <input type="submit" value="S√∏g"  />
                 </form>
 			</div>
 
@@ -69,7 +69,7 @@
                         <?= showBubbleIfCount(0, "red") ?>
                     &middot;
                     <a class="newposts" href="#">
-                        Nye indlæg
+                        Nye indl√¶g
                         <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadDiscussions, "blue") ?>
                     </a>
                     &middot;
@@ -108,7 +108,7 @@
 				&middot;
 				<a href="#" class="team">Holdet bag websitet</a>
 				&middot;
-				<span>© Copyright <?= DATE("Y") ?> Lydmaskinen.dk</span>
+				<span>¬© Copyright <?= DATE("Y") ?> Lydmaskinen.dk</span>
 				
 				<?php
 					$this->RenderAsset('Foot');
