@@ -19,9 +19,9 @@
 	<div id="header-container">
 		<header class="wrapper clearfix">
 			<a href="#" class="banner" id="topbanner">
-				<img src="<?= Url("/") ?>themes/lydmaskinen_v2/banners/gajolbanner.jpg" />
+				<img src='<?= Url("/themes/lydmaskinen_v2/banners/gajolbanner.jpg") ?>' />
 			</a>
-			<h1 class="leftcol" id="title"><a href="<?php echo Url('/'); ?>">Lydmaskinen</a></h1>
+			<h1 class="leftcol" id="title"><a href="<?= Url('/'); ?>">Lydmaskinen</a></h1>
 
 			<nav class="rightcol">
 				<ul>
@@ -33,7 +33,7 @@
 			</nav>
 			
 			<div id="searchbox" class="Search leftcol">
-                <form action="<?=Url('/search')?>" method="get">
+                <form action="<?= Url('/search')?>" method="get">
                     <input type="text" name="Search" placeholder="Søg på Lydmaskinen" />
                     <input type="submit" value="Søg"  />
                 </form>
@@ -57,7 +57,7 @@
 			
 			<div class="toolbar rightcol">
                 <?php if (Gdn::Session()->IsValid()) { ?>
-                    <a class="profile" href="/profile">Din profil</a>
+                    <a class="profile" href="<?= Url('/profile')?>">Din profil</a>
                     &middot;
                     <a class="favourites" href="#">
                         Favoritter
@@ -83,9 +83,9 @@
 					<a class="rules" href="#">Regler</a>
 					&middot;
                     <?php if (Gdn::Session()->IsValid()) { ?>
-					    <a class="logout" href="entry/signout">Log ud</a>
+					    <a class="logout" href="<?= Url('/entry/signout')?>">Log ud</a>
                     <?php } else { ?>
-                        <a class="login" href="entry/signin">Log ind</a>
+                        <a class="login" href="<?= Url('/entry/signin')?>">Log ind</a>
                     <?php } ?>
 				</span>
 			</div>

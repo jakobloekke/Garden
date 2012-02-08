@@ -9,7 +9,7 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
         &middot;
         <a class="mark-as-read" href="#">Marker læst</a>
         &middot;
-        <a class="like" href="#"><img src="/Vanilla/themes/Lydmaskinen/design/images/like.gif" alt="like" />Synes godt om</a>
+        <a class="like" href="#"><img src="<?= Url('/themes/Lydmaskinen_v2/design/images/like.gif')?>" alt="like" />Synes godt om</a>
     </div>
     <ul class="iconlist">
         <?php
@@ -28,7 +28,7 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
 </section>
 
 <a href="#" class="banner">
-    <img src="/Vanilla/themes/Lydmaskinen/banners/dpa.jpg">
+    <img src="<?= Url('/themes/Lydmaskinen_v2/design/images/dpa.jpg')?>">
 </a>
 
 <section>
@@ -60,7 +60,10 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
     </div>
 </section>
 
-<input type='button' value='Nyt emne' onClick='location.href="post/discussion/<?=(array_key_exists('CategoryID', $Data) ? '/'.$Data['CategoryID'] : '')?>"; return false;'/>
+<?php
+    $newPostLink = "post/discussion/" . (array_key_exists('CategoryID', $Data) ? '/'.$Data['CategoryID'] : '');
+?>
+<input type='button' value='Nyt emne' onClick='location.href="<?=$newPostLink?>"; return false;'/>
 
 
 
