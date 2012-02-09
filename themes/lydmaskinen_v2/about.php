@@ -14,7 +14,7 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
 $ThemeInfo['lydmaskinen'] = array(
    'Name' => 'Lydmaskinen',
    'Description' => "Lydmaskinen.dk - the V2 theme",
-   'Version' => '1.0',
+   'Version' => '2.0',
    'Author' => "Holger Lagerfeldt (design) & Jakob Løkke Madsen (code)",
    'AuthorEmail' => 'jakob@jakobloekkemadsen.com',
    'AuthorUrl' => 'http://www.jakobloekkemadsen.com'

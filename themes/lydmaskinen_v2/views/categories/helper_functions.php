@@ -14,13 +14,13 @@ function GetOptions($Category, $Sender) {
    $TKey = urlencode(Gdn::Session()->TransientKey());
 
    // Mark category read.
-   $Options .= '<li>'.Anchor(T('Mark Read'), "/vanilla/category/markread?categoryid=$CategoryID&tkey=$TKey").'</li>';
+   $Options .= '<li>'.Anchor(T('Mark Read'), "/category/markread?categoryid=$CategoryID&tkey=$TKey").'</li>';
 
    // Follow/Unfollow category.
    if (!GetValue('Following', $Category))
-      $Options .= '<li>'.Anchor(T('Follow'), "/vanilla/category/follow?categoryid=$CategoryID&value=1&tkey=$TKey").'</li>';
+      $Options .= '<li>'.Anchor(T('Follow'), "/category/follow?categoryid=$CategoryID&value=1&tkey=$TKey").'</li>';
    else
-      $Options .= '<li>'.Anchor(T('Unfollow'), "/vanilla/category/follow?categoryid=$CategoryID&value=0&tkey=$TKey").'</li>';
+      $Options .= '<li>'.Anchor(T('Unfollow'), "/category/follow?categoryid=$CategoryID&value=0&tkey=$TKey").'</li>';
 
    // Allow plugins to add options
    $Sender->FireEvent('DiscussionOptions');

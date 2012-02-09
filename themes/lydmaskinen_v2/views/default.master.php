@@ -74,7 +74,7 @@
                     </a>
                     &middot;
                     <a class="karma" href="#">
-                        <Karma></Karma>
+                        Karma
                         <?= showBubbleIfCount(10, "green") ?>
                     </a>
 				<?php } ?>
@@ -94,7 +94,7 @@
 	
 	<div id="main" class="wrapper">
 
-		<aside id="Panel">
+		<aside id="Panel" class="leftcol">
 			<?php $this->RenderAsset('Panel'); ?>
 		</aside>
         

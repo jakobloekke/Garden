@@ -6,10 +6,11 @@
  * Time: 14.37
  * To change this template use File | Settings | File Templates.
  */
-class LydmaskinenThemeHooks implements Gdn_IPlugin
+class Lydmaskinen_v2ThemeHooks implements Gdn_IPlugin
 {
 
     public function Setup() {
+
         return TRUE;
     }
 

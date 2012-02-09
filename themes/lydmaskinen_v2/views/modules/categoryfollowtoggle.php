@@ -2,6 +2,7 @@
 $ShowAllCategoriesPref = Gdn::Session()->GetPreference('ShowAllCategories');
 $Url = Gdn::Request()->Path();
 ?>
+
 <div class="Box CategoryFollowToggleBox">
    <h4><?php echo T('Category Management'); ?></h4>
    <?php if ($ShowAllCategoriesPref) { ?>

@@ -4,30 +4,31 @@ if (!function_exists('WriteComment'))
    include $this->FetchViewLocation('helper_functions', 'discussion');
 
 // Wrap the discussion related content in a div.
-echo '<div class="MessageList Discussion '.CssClass($this->Data('Discussion')).'">';
+echo '<section class="headline MessageList Discussion '.CssClass($this->Data('Discussion')).'">';
+?>
 
-// Write the page title.
-echo '<!-- Page Title -->
-<div id="Item_0" class="PageTitle">';
+<h2><?=$this->Data('Discussion.Name')?></h2>
 
-echo '<div class="Options">';
 
-WriteBookmarkLink();
-WriteDiscussionOptions();
-WriteAdminCheck();
 
-echo '</div>';
+    <div class="Options">
 
-echo '<h1>'.$this->Data('Discussion.Name').'</h1>';
+        <?php
+        WriteBookmarkLink();
+        WriteDiscussionOptions();
+        WriteAdminCheck();
+        ?>
 
-echo "</div>\n\n";
+    </div>
 
+
+<?php
 // Write the initial discussion.
 if ($this->Data('Page') == 1) {
    include $this->FetchViewLocation('discussion', 'discussion');
-   echo '</div>'; // close discussion wrap
+   echo '</section>'; // close discussion wrap
 } else {
-   echo '</div>'; // close discussion wrap
+   echo '</section>'; // close discussion wrap
 }
 
 echo '<div class="CommentsWrap">';
