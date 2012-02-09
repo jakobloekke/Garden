@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
     </list>
     <ignored path="Garden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="all.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="all.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="111" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.85731274">
+            <state line="30" column="63" selection-start="947" selection-end="992" vertical-scroll-proportion="-6.9166665">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lydmaskinen.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper_functions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="44" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.77225435">
+              <folding>
+                <marker date="1328776995000" expanded="true" signature="1739:1819" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +59,7 @@
       <file leaf-file-name="default.master.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="73" selection-start="3361" selection-end="3387" vertical-scroll-proportion="-54.375">
+            <state line="87" column="73" selection-start="3361" selection-end="3387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,9 +82,12 @@
       <list>
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1680" />
@@ -204,6 +228,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lydmaskinen_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="applications" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -270,6 +316,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="" />
       <created>1328702111703</created>
       <updated>1328702111703</updated>
     </task>
@@ -277,26 +324,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25735295" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -333,7 +381,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some sluggish errors" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -346,45 +394,16 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Fixed some links" />
+    <MESSAGE value="Fixed some sluggish errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://PHP/\Gdn_Model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>\Gdn_Model</OriginalElement>
-          <nodes>
-            <node x="" y="">\Gdn_SliceProvider</node>
-            <node x="" y="">\Gdn_Pluggable</node>
-            <node x="" y="">\Gdn_Model</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7070539419087137" x="328.5633802816901" y="632.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/models/class.categorymodel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/core/class.model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="489" selection-end="498" vertical-scroll-proportion="0.2733485">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="489" selection-end="498" vertical-scroll-proportion="0.2733485" />
       </provider>
     </entry>
     <entry file="uml://PHP/\CategoryModel">
@@ -406,90 +425,87 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/models/class.vanillamodel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="42" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/discussions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-20.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="73" selection-start="3361" selection-end="3387" vertical-scroll-proportion="-54.375">
-          <folding />
-        </state>
+        <state line="32" column="6" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-20.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/categories/all.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="54" selection-start="2299" selection-end="2300" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
+        <state line="46" column="54" selection-start="2299" selection-end="2300" vertical-scroll-proportion="-4.576923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/categories/discussions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/categories/helper_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussion/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussion/discussion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussions/discussion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussions/discussions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/vanilla/views/discussions/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="73" selection-start="3361" selection-end="3387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="111" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.85731274">
+        <state line="30" column="63" selection-start="947" selection-end="992" vertical-scroll-proportion="-6.9166665">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="44" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.77225435">
+          <folding>
+            <marker date="1328776995000" expanded="true" signature="1739:1819" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

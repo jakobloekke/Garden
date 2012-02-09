@@ -12,7 +12,7 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
         <a class="like" href="#"><img src="<?= Url('/themes/Lydmaskinen_v2/design/images/like.gif')?>" alt="like" />Synes godt om</a>
     </div>
     <ul class="iconlist">
-        <?php
+        <?=
         renderSelectedCategories(
             $this->CategoryData->Result(),
             array(
@@ -28,12 +28,12 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
 </section>
 
 <a href="#" class="banner">
-    <img src="<?= Url('/themes/Lydmaskinen_v2/design/images/dpa.jpg')?>">
+    <img src="<?= Url('/themes/Lydmaskinen_v2/banners/dpa.jpg')?>">
 </a>
 
 <section>
     <ul class="iconlist">
-        <?php
+        <?=
         renderSelectedCategories(
             $this->CategoryData->Result(),
             array(

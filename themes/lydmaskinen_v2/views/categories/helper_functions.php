@@ -38,27 +38,37 @@ function GetOptions($Category, $Sender) {
 /**
  * @param $AllCategories
  * @param $SelectedCategories
- * @return HTML list items for matching categories ("<li>")
+ * @return string of html list items for matching categories ("<li>")
  */
 function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Resultset, Array of category names)
 {
+    $listItems = "";
     foreach ($SelectedCategories as $Selected) {
         foreach ($AllCategories as $Category) {
             if ( $Category->Name == $Selected ) {
-                echo
+                $listItems .=
                     "<li>
-					<img class='iconlist-icon' width='49' height='49' src='/Vanilla/themes/Lydmaskinen/design/images/content/$Category->UrlCode.jpg' />
-					<div class='iconlist-content'>
-						<h4><a href='/Vanilla/categories/$Category->UrlCode'>$Category->Name</a></h4>
-						<p>$Category->Description</p>
-						<p class='meta'>
-							".Gdn_Format::Date($Category->DateLastComment).":
-							<a href='/Vanilla/discussion/$Category->LastDiscussionID/$Category->LastDiscussionName'>$Category->LastDiscussionName</a>
-							af $Category->LastCommentName
-						</p>
-					</div>
-				</li>";
+                        <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/design/images/content/' . $Category->UrlCode . '.jpg') . "' />
+                        <div class='iconlist-content'>
+                            <h4>
+                                <a href='" . Url('/categories/' . $Category->UrlCode) . "'>
+                                    $Category->Name
+                                </a>
+                            </h4>
+                            <p>$Category->Description</p>
+                            <p class='meta'>
+                                ".Gdn_Format::Date($Category->DateLastComment).":
+                                <a href='" . Url('/discussion/' . $Category->LastDiscussionID/$Category->LastDiscussionName) . "'>
+                                    $Category->LastDiscussionName
+                                </a>
+                                af $Category->LastCommentName
+                            </p>
+                        </div>
+                    </li>";
             };
         }
     }
+
+    return $listItems;
+
 }
