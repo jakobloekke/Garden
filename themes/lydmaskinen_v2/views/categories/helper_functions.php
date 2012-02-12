@@ -46,9 +46,12 @@ function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Re
     foreach ($SelectedCategories as $Selected) {
         foreach ($AllCategories as $Category) {
             if ( $Category->Name == $Selected ) {
+
                 $listItems .=
                     "<li>
-                        <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/design/images/content/' . $Category->UrlCode . '.jpg') . "' />
+                        <a href='" . Url('/categories/' . $Category->UrlCode) . "'>
+                            <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/design/images/content/' . $Category->UrlCode . '.jpg') . "' />
+                        </a>
                         <div class='iconlist-content'>
                             <h4>
                                 <a href='" . Url('/categories/' . $Category->UrlCode) . "'>
@@ -57,11 +60,11 @@ function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Re
                             </h4>
                             <p>$Category->Description</p>
                             <p class='meta'>
-                                ".Gdn_Format::Date($Category->DateLastComment).":
-                                <a href='" . Url('/discussion/' . $Category->LastDiscussionID/$Category->LastDiscussionName) . "'>
-                                    $Category->LastDiscussionName
+                                " . Gdn_Format::Date($Category->DateUpdated) . " :
+                                <a href='" . Url($Category->LastUrl) . "'>
+                                    $Category->LastTitle
                                 </a>
-                                af $Category->LastCommentName
+                                af $Category->LastName
                             </p>
                         </div>
                     </li>";

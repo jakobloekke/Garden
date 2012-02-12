@@ -83,9 +83,9 @@
 					<a class="rules" href="#">Regler</a>
 					&middot;
                     <?php if (Gdn::Session()->IsValid()) { ?>
-					    <a class="logout" href="<?= Url('/entry/signout')?>">Log ud</a>
+					    <a class="logout SignInPopup" href="<?= Url('/entry/signout')?>">Log ud</a>
                     <?php } else { ?>
-                        <a class="login" href="<?= Url('/entry/signin')?>">Log ind</a>
+                        <a class="login SignInPopup" href="<?= Url('/entry/signin')?>">Log ind</a>
                     <?php } ?>
 				</span>
 			</div>

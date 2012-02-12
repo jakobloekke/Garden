@@ -40,7 +40,8 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
                 'Din Musik',
                 'Blogs',
                 'Backstage',
-                'After Party'
+                'After Party',
+                'Markedsplads'
             )
         );
         ?>
