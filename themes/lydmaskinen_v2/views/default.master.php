@@ -9,7 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<?php
-        $this->Head->addCSS("themes/lydmaskinen_v2/design/lydmaskinen.css");
+        $this->Head->addCSS("themes/lydmaskinen_v2/design/stylesheets/screen.css");
         $this->RenderAsset('Head');
     ?>
 

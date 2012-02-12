@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Added scss + some changes to code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.scss" />
+    <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/partials/html5-boilerplate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/after-party.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/andet-musikudstyr-lydteknik.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/backstage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/blogs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/books.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/branche-teori.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/computer-software.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/din-musik.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/forsale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/gear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/interviews.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/live-lyd-pa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/logicpro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/mastering.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/musikbranche.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/postimage1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/services.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/studiebygning-akustik.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/content/wanttobuy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/ie.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/html5-boilerplate.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/print.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
     </list>
     <ignored path="Garden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,95 +61,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lydmaskinen.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="body_bg.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/body_bg.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="searchbox.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/searchbox.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="slicesplash.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/slicesplash.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="star_sprite.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/star_sprite.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="38" selection-end="38" vertical-scroll-proportion="0.052570093">
-              <folding />
-            </state>
+      <file leaf-file-name="toolbar_bg.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/toolbar_bg.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="10" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-24.375">
-              <folding>
-                <marker date="1328821804000" expanded="true" signature="531:578" placeholder="..." />
-              </folding>
-            </state>
+      <file leaf-file-name="upload-bg.gif" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/upload-bg.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
-              </folding>
-            </state>
+      <file leaf-file-name="upload-progress-back.gif" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/upload-progress-back.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="43" selection-end="899" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="usericon.gif" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/usericon.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helper_functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="28" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="vanilla_logo.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/vanilla_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.master.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
+      <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="52" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.0">
+            <state line="7" column="36" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,13 +148,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/discussionfilter.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/categoryfollowtoggle.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/newdiscussion.php" />
-        <option value="$PROJECT_DIR$/applications/vanilla/views/categories/all.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/discussions.php" />
@@ -159,6 +158,12 @@
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/partials/variables.sass" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/variables.scss" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/sass/lydmaskinen.scss" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/frontend/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/frontend/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" />
       </list>
     </option>
   </component>
@@ -259,103 +264,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discussions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,6 +300,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.class.lydmaskinenthemehooks.php">
     <configuration default="false" name="class.lydmaskinenthemehooks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
@@ -478,15 +392,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2665441" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2665441" sideWeight="0.67071825" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -536,7 +450,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scss + some changes to code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compass" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -554,109 +468,91 @@
     <MESSAGE value="Loads of styling and configuration&#10;" />
     <MESSAGE value="Added scss" />
     <MESSAGE value="Added scss + some changes to code" />
+    <MESSAGE value="SCSS import structure" />
+    <MESSAGE value="Compass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="261" selection-end="272" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/dashboard-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/categoryfollowtoggle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/dashboard-sprites.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/GettingStarted/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/h2_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/helper_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/homepage-sprites.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/discussions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/jcrop.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/all.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="43" selection-end="899" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/like.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/categories/helper_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/default.master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="52" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/logo_footer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-24.375">
-          <folding>
-            <marker date="1328821804000" expanded="true" signature="531:578" placeholder="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/looking-glass.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1316187690000" expanded="true" signature="4653:4769" placeholder="{...}" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/mainsection_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/nav.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/lydmaskinen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/parent_divider.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/pixel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/progress.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/progress_sm.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="38" selection-end="38" vertical-scroll-proportion="0.052570093">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/images/rss.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
