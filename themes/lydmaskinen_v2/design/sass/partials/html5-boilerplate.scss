@@ -67,14 +67,3 @@ button {  width: auto; overflow: visible; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-a, a:active, a:visited {
-    color: $blue;
-    text-decoration: none;
-    &:hover {
-        color: lighten($blue, 10%);
-    }
-}
-
-
-/* apply a natural box layout model to all elements */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }

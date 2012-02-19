@@ -4,49 +4,33 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/transition";
 @import "partials/_variables";
 @import "partials/html5-boilerplate";
+@import "partials/vanilla-overrides";
 
 
-/*
-    // ========================================== \\
-   ||                                              ||
-   ||               Vanilla override               ||
-   ||                                              ||
-    \\ ========================================== //
-*/
-
-div.Overlay {
-    background-color: rgba(0,0,0,0.5);
-}
-
-div.Box{ /* Overrides standard Vanilla class */
-    background-color: white;
-    border-radius: 6px;
-    border: 1px solid #e1e1e1;
-    box-shadow: none;
-    color: inherit;
-    margin: 0 0 15px 0;
-    padding: 12px;
-}
-
-body.Discussion #Content {
-    overflow: hidden;
-}
-
-
-/*
-    // ========================================== \\
-   ||                                              ||
-   ||               Lydmaskinen V2                 ||
-   ||                                              ||
-    \\ ========================================== //
-*/
+/* Lydmaskinen V2 */
 
 body {
 	font-family: Arial, sans-serif;
 	background-color: #ebeef1;
 }
+
+a, a:active, a:visited {
+    color: $blue;
+    text-decoration: none;
+    @include transition-property(color);
+    @include transition-duration(200ms);
+
+    &:hover {
+        color: lighten($blue, 20%);
+    }
+}
+
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .banner{
 	display: block;
@@ -74,6 +58,10 @@ body {
 form.poll {
 	font-size: 14px;
 	line-height: 2em;
+
+    input{
+    	margin-right: 1em;
+    }
 }
 
 
@@ -86,22 +74,35 @@ form.poll {
     margin-left: 0;
 }
 
-form.poll input{
-	margin-right: 1em;
-}
+
 
 #header-container{
 	background: transparent url('../images/body_bg.jpg') repeat-x 0 top;
 	height:326px;
 	margin-bottom: 40px;
+
+    .toolbar{
+    	position: relative;
+    	top: 12px;
+
+        a{
+            margin: 0 3px;
+            text-decoration: none;
+
+            &:first-child{
+                margin: 0 3px 0 0;
+            }
+
+        }
+    }
 }
 
-#header-container #topbanner{
+#topbanner{
 	text-align: center;
 	margin-bottom: 35px;
 }
 
-#header-container #searchbox {
+#searchbox {
 	position: relative;
 	top: 6px;
 	clear: left;
@@ -109,38 +110,34 @@ form.poll input{
     border-radius: 6px;
     border: 1px solid #e1e1e1;
 	height: 25px;
+
+    input[type='text'] {
+    	border: none;
+    	position: relative;
+    	top: 4px;
+    	width: 260px;
+    }
+
+    input[type='submit'] {
+        background: transparent url('../images/looking-glass.png') no-repeat 9px 6px;
+        float: left;
+        border: none;
+        height: 20px;
+        width: 30px;
+        text-indent: -9999px;
+        opacity: 0.6;
+        @include transition-property(opacity);
+        @include transition-duration(200ms);
+    }
+
+    &:hover input[type='submit'] {
+        opacity: 1;
+    }
 }
 
-#header-container #searchbox input[type='text'] {
-	border: none;
-	position: relative;
-	top: 4px;
-	width: 260px;
-}
 
-#header-container #searchbox input[type='submit'] {
-    background: transparent url('../images/looking-glass.png') no-repeat 9px 6px;
-    float: left;
-    border: none;
-    height: 20px;
-    width: 30px;
-    text-indent: -9999px;
 
-}
 
-#header-container .toolbar{
-	position: relative;
-	top: 12px;
-}
-
-#header-container .toolbar a{
-	margin: 0 3px;
-	text-decoration: none;
-}
-
-#header-container .toolbar a:first-child{
-	margin: 0 3px 0 0;
-}
 
 .bubble{
 	color: white;
