@@ -35,7 +35,7 @@
 			<div id="searchbox" class="Search leftcol">
                 <form action="<?= Url('/search')?>" method="get">
                     <input type="text" name="Search" placeholder="Søg på Lydmaskinen" />
-                    <input type="submit" value="Søg"  />
+                    <input type="submit" value="Søg" />
                 </form>
 			</div>
 
