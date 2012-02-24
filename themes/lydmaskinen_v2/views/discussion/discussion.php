@@ -12,7 +12,7 @@ $this->EventArguments['Object'] = &$Discussion;
 $this->EventArguments['Type'] = 'Discussion';
 
 ?>
-<div id="<?php echo 'Discussion_'.$Discussion->DiscussionID; ?>" class="<?php echo CssClass($Discussion); ?>">
+<div id="<?php echo 'Discussion_'.$Discussion->DiscussionID; ?>" class="<?= CssClass($Discussion); ?>">
    <div class="DiscussionHeader">
       <div class="Meta">
          <span class="Author">
