@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 
-@import "compass/css3/transition";
+@import "compass";
 @import "partials/_variables";
 @import "partials/html5-boilerplate";
 @import "partials/vanilla-overrides";
@@ -58,19 +58,11 @@ a, a:active, a:visited {
 	font-size: 14px;
 	font-weight: bold;
 	font-family: arial, sans-serif;
-	padding: 6px 12px;
+	padding: 7px 15px;
     height: 30px;
 	position: relative;
-    background: rgb(54,87,118); /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzY3ODA5NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iIzM2NTc3NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iIzM2NTc3NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NzgwOTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 20%, rgba(54,87,118,1) 80%, rgba(103,128,151,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(103,128,151,1)), color-stop(20%,rgba(54,87,118,1)), color-stop(80%,rgba(54,87,118,1)), color-stop(100%,rgba(103,128,151,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(103,128,151,1) 1%,rgba(54,87,118,1) 20%,rgba(54,87,118,1) 80%,rgba(103,128,151,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(103,128,151,1) 1%,rgba(54,87,118,1) 20%,rgba(54,87,118,1) 80%,rgba(103,128,151,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(103,128,151,1) 1%,rgba(54,87,118,1) 20%,rgba(54,87,118,1) 80%,rgba(103,128,151,1) 100%); /* IE10+ */
-    background: linear-gradient(top,  rgba(103,128,151,1) 1%,rgba(54,87,118,1) 20%,rgba(54,87,118,1) 80%,rgba(103,128,151,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#678097', endColorstr='#678097',GradientType=0 ); /* IE6-8 */
+
+    @include background-image(linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 24%, rgba(54,87,118,1) 79%, rgba(103,128,151,1) 100%));
 }
 
 
@@ -83,7 +75,8 @@ h3,
 div.Box h4 {
     color: #202020;
     font-family: "helvetica neue", helvetica, arial, sans-serif;
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
@@ -97,7 +90,7 @@ div.Box h4 {
 	text-indent: -9999px;
 	height: 72px;
 	width: 310px;
-	background: transparent url('../images/logo.png') no-repeat 0 0;
+	background: transparent url('../images/logo.png') no-repeat -2px -1px;
 }
 
 
@@ -112,7 +105,7 @@ div.Box h4 {
 	width:$masterwidth;
 }
 #main.wrapper {
-	overflow: auto;
+	overflow: hidden;
 }
 
 .leftcol,
@@ -131,7 +124,7 @@ div.Box h4 {
 
 .stayright{
 	position: absolute;
-	right: 0;
+	right: 12px;
 }
 
 
@@ -144,11 +137,11 @@ div.Box h4 {
 #header-container{
 	background: transparent url('../images/body_bg.jpg') repeat-x 0 top;
 	height:326px;
-	margin-bottom: 40px;
+	margin-bottom: 36px;
 
     .toolbar{
     	position: relative;
-    	top: 12px;
+    	top: 13px;
 
         a{
             margin: 0 3px;
@@ -164,7 +157,7 @@ div.Box h4 {
 
 #searchbox {
 	position: relative;
-	top: 6px;
+	top: 7px;
 	clear: left;
 	background-color: white;
     border-radius: 6px;
@@ -172,18 +165,20 @@ div.Box h4 {
 	height: 25px;
 
     input[type='text'] {
+        font-size: 14px;
+        font-weight: 200;
     	border: none;
     	position: relative;
-    	top: 4px;
+    	top: 5px;
     	width: 260px;
     }
 
     input[type='submit'] {
-        background: transparent url('../images/looking-glass.png') no-repeat 9px 6px;
+        background: transparent url('../images/looking-glass.png') no-repeat 13px 5px;
         float: left;
         border: none;
         height: 20px;
-        width: 30px;
+        width: 33px;
         text-indent: -9999px;
         opacity: 0.6;
         @include transition-property(opacity);
@@ -242,7 +237,7 @@ a:hover .bubble{
 
 nav{
 	position: relative;
-	top: 29px;
+	top: 28px;
 
     li {
     	margin-left: 28px;
@@ -257,6 +252,7 @@ nav{
         	text-indent: -9999px;
         	background: transparent url('../images/nav.png') no-repeat 0 3px;
         	padding: 6px 0;
+            margin-right: 6px;
             &:hover,
             &:active {
                 top: -3px;
@@ -267,10 +263,10 @@ nav{
         }
     }
     #forum{
-    	width: 77px;
+    	width: 78px;
     }
     #news{
-    	width: 72px;
+    	width: 102px;
     	background-position: -112px 3px;
     }
     #marketplace{
@@ -292,8 +288,9 @@ nav{
 
 #main article {
     section {
-
         @include rounded-box;
+
+        width: 642px;
 
         .post {
             .left {
@@ -383,7 +380,7 @@ ul.DataList .Item {
 
 #main aside {
 	float: left;
-	margin-right: 38px;
+	margin-right: 39px;
 
     section {
         @include rounded-box;
