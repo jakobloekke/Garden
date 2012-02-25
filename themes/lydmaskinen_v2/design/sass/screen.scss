@@ -251,13 +251,17 @@ nav{
         	background: transparent url('../images/nav.png') no-repeat 0 3px;
         	padding: 6px 0;
             margin-right: 6px;
+            top: -3px;
+            border-width: 3px 0;
+            border-style: solid;
+            border-color: rgba(255,0,0,0);
+            @include transition-property(border);
+            @include transition-duration(200ms);
             &:hover,
             &:active,
             &.active {
-                top: -3px;
-                	border-width: 3px 0;
-                	border-style: solid;
-                	border-color: red;
+                border-color: rgba(255,0,0,1);
+
             }
         }
     }
@@ -392,10 +396,32 @@ ul.DataList {
     }
 }
 
+
+
 .MessageList {
 
+    // Common styles
     .Item {
-        padding: 16px;
+        .Meta {
+            height: 63px;
+            @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
+        }
+
+        .Message {
+            padding: 16px;
+        }
+    }
+
+    // The initial post
+    &.Discussion {
+        .Item {
+            height: 294px;
+        }
+    }
+
+    // Answers
+    li.Item {
+        @include rounded-box;
     }
 
 }
@@ -407,7 +433,7 @@ ul.DataList {
 
 #main aside {
 	float: left;
-	margin-right: 39px;
+	margin-right: 40px; //39 on the front page
 
     section {
         @include rounded-box;
