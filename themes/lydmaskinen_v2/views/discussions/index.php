@@ -8,15 +8,13 @@ WriteCheckController();
 
     <h2><?= $this->Data('Title')?></h2>
 
-    <?= Gdn_Theme::Module('DiscussionFilterModule')?>
-
     <?php
 
     if ($this->DiscussionData->NumRows() > 0 || (isset($this->AnnounceData) && is_object($this->AnnounceData) && $this->AnnounceData->NumRows() > 0)) {
 
     ?>
 
-    <ul class="iconList DataList Discussions">
+    <ul class="iconlist DataList Discussions">
        <?php include($this->FetchViewLocation('discussions'))?>
     </ul>
 

@@ -64,7 +64,7 @@ include($this->FetchViewLocation('helper_functions', 'categories'));
 <?php
     $newPostLink = "post/discussion/" . (array_key_exists('CategoryID', $Data) ? '/'.$Data['CategoryID'] : '');
 ?>
-<input type='button' value='Nyt emne' onClick='location.href="<?=$newPostLink?>"; return false;'/>
+<input id="newPost" type='button' value='Nyt emne' onClick='location.href="<?=$newPostLink?>"; return false;'/>
 
 
 

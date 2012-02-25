@@ -43,12 +43,13 @@
 
 
             <?php
-            /**
-             * @param $count
-             * @param $cssClass CSS class that matches a color name
-             * @todo Get this into generalized function file!!!
-             * @return string
-             */function showBubbleIfCount($count, $cssClass) {
+                /**
+                 * @param $count
+                 * @param $cssClass CSS class that matches a color name
+                 * @todo Get this into generalized function file!!!
+                 * @return string
+                 */
+                function showBubbleIfCount($count, $cssClass) {
                     if ($count > 0) {
                         return "<span class='bubble ".$cssClass."'>".$count."</span>";
                     }
@@ -64,13 +65,18 @@
                         <?= showBubbleIfCount(Gdn::Session()->User->CountBookmarks, "red") ?>
                     </a>
                     &middot;
+                    <a class="yourposts" href="#">
+                        Dine indlæg
+                    </a>
+                    &middot;
                     <a class="messages" href="#">
                         Beskeder
-                        <?= showBubbleIfCount(0, "red") ?>
+                        <?= showBubbleIfCount(1, "red") ?>
+                    </a>
                     &middot;
                     <a class="newposts" href="#">
                         Nye indlæg
-                        <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadDiscussions, "blue") ?>
+                        <?= showBubbleIfCount(/*Gdn::Session()->User->CountUnreadDiscussions*/1, "blue") ?>
                     </a>
                     &middot;
                     <a class="karma" href="#">

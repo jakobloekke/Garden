@@ -50,7 +50,7 @@ function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Re
                 $listItems .=
                     "<li>
                         <a href='" . Url('/categories/' . $Category->UrlCode) . "'>
-                            <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/design/images/content/' . $Category->UrlCode . '.jpg') . "' />
+                            <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/content/' . $Category->UrlCode . '.jpg') . "' />
                         </a>
                         <div class='iconlist-content'>
                             <h4>

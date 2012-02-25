@@ -25,9 +25,34 @@
 {
 	background-color: white;
 	border: 1px solid #e1e1e1;
-	border-radius: 6px;
     overflow: hidden;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+	@include border-radius(6px);
+
+    &.headline h2 {
+        @include border-radius(6px 6px 0 0);
+    }
+}
+
+@mixin blue-header
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 15px;
+    height: 30px;
+    position: relative;
+
+    @include background-image(linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 24%, rgba(54,87,118,1) 79%, rgba(103,128,151,1) 100%));
+}
+
+@mixin bubble-gradient($color) {
+    @include background-image(
+        linear-gradient(top,
+            lighten($color, 12%) 43%,
+            $color 54%
+        )
+    );
 }
 
 
@@ -51,19 +76,7 @@ a, a:active, a:visited {
     }
 }
 
-#main article section.headline h2,
-#Popup h1
-{
-	color: white;
-	font-size: 14px;
-	font-weight: bold;
-	font-family: arial, sans-serif;
-	padding: 7px 15px;
-    height: 30px;
-	position: relative;
 
-    @include background-image(linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 24%, rgba(54,87,118,1) 79%, rgba(103,128,151,1) 100%));
-}
 
 
 
@@ -81,7 +94,7 @@ div.Box h4 {
     margin-bottom: 1em;
 }
 
-#title, h2, h3{
+#title, h2, h3 {
 	font-weight: normal;
 }
 
@@ -92,7 +105,6 @@ div.Box h4 {
 	width: 310px;
 	background: transparent url('../images/logo.png') no-repeat -2px -1px;
 }
-
 
 
 
@@ -144,13 +156,42 @@ div.Box h4 {
     	top: 13px;
 
         a{
-            margin: 0 3px;
+            margin: 0 4px;
             text-decoration: none;
+            font-weight: 200;
 
             &:first-child{
                 margin: 0 3px 0 0;
             }
 
+            .bubble{
+                color: white;
+                margin: 0 3px;
+                padding: 2px 6px;
+                font-weight: 600;
+                background-color: gray;
+                @include border-radius(12px);
+                @include box-shadow(
+                    white 0 0 0 2px,
+                    rgba(0,0,0,0.4) -1px 2px 3px 0
+                );
+                @include transition-duration(200ms);
+                opacity: 0.5;
+
+                &.red{
+                    @include bubble-gradient(red);
+                }
+                &.blue{
+                    @include bubble-gradient($blue);
+                }
+                &.green{
+                    @include bubble-gradient(#2a8923);
+                }
+            }
+
+            &:hover .bubble{
+                opacity: 1;
+            }
         }
     }
 }
@@ -190,50 +231,7 @@ div.Box h4 {
     }
 }
 
-.bubble{
-	color: white;
-	border: 2px solid white;
-	margin: 0 3px;
-	padding: 2px 6px;
-	border-radius: 12px;
-	-webkit-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.5);
-	background-color: gray;
-}
-.bubble.red{
-	background: #ff5454; /* Old browsers */
-	background: -moz-linear-gradient(top, #ff5454 0%, #ff5454 50%, #ff0000 51%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5454), color-stop(50%,#ff5454), color-stop(51%,#ff0000)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ff5454 0%,#ff5454 50%,#ff0000 51%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ff5454 0%,#ff5454 50%,#ff0000 51%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #ff5454 0%,#ff5454 50%,#ff0000 51%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5454', endColorstr='#ff0000',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #ff5454 0%,#ff5454 50%,#ff0000 51%); /* W3C */
-}
-.bubble.blue{
-	background: #4e6b87; /* Old browsers */
-    background: -moz-linear-gradient(top, #4e6b87 0%, #4e6b87 50%, #365776 51%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4e6b87), color-stop(50%,#4e6b87), color-stop(51%,#365776)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #4e6b87 0%,#4e6b87 50%,#365776 51%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #4e6b87 0%,#4e6b87 50%,#365776 51%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #4e6b87 0%,#4e6b87 50%,#365776 51%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e6b87', endColorstr='#365776',GradientType=0 ); /* IE6-9 */
-    background: linear-gradient(top, #4e6b87 0%,#4e6b87 50%,#365776 51%); /* W3C */
-}
-.bubble.green{
-	background: #44973e; /* Old browsers */
-    background: -moz-linear-gradient(top, #44973e 0%, #44973e 50%, #2a8923 51%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44973e), color-stop(50%,#44973e), color-stop(51%,#2a8923)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #44973e 0%,#44973e 50%,#2a8923 51%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #44973e 0%,#44973e 50%,#2a8923 51%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #44973e 0%,#44973e 50%,#2a8923 51%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44973e', endColorstr='#2a8923',GradientType=0 ); /* IE6-9 */
-    background: linear-gradient(top, #44973e 0%,#44973e 50%,#2a8923 51%); /* W3C */
-}
-a:hover .bubble{
-	margin: 0 2px;
-	padding: 3px 7px;
-}
+
 
 nav{
 	position: relative;
@@ -254,7 +252,8 @@ nav{
         	padding: 6px 0;
             margin-right: 6px;
             &:hover,
-            &:active {
+            &:active,
+            &.active {
                 top: -3px;
                 	border-width: 3px 0;
                 	border-style: solid;
@@ -289,7 +288,7 @@ nav{
 #main article {
     section {
         @include rounded-box;
-
+        display: block;
         width: 642px;
 
         .post {
@@ -313,7 +312,7 @@ nav{
         .toolbar {
         	position: relative;
             height: 30px;
-        	padding: 6px 12px;
+        	padding: 7px 17px;
         	border-color: #e1e1e1;
         	border-style: solid;
         	border-width: 0;
@@ -325,12 +324,12 @@ nav{
             }
 
             a {
-            	margin: 0 0.5em;
-                &:first-child {
-                    margin: 0 0.5em 0 0;
+                margin: 3px;
+                &:first-child{
+                    margin-left: 0;
                 }
                 &.like img {
-                 	margin-right: 0.5em;
+                 	margin-right: 7px;
                 }
             }
         }
@@ -338,17 +337,24 @@ nav{
         &.announcement .post {
             font-size: 14px;
         }
+
+        &.headline h2 {
+            @include blue-header;
+        }
     }
 
-
+    #newPost {
+        font-size: 16px;
+    }
 }
 
 ul.iconlist {
 	margin: 0;
 	list-style-type: none;
+    padding: 16px;
 
     li {
-        padding: 12px;
+        margin-top: 16px;
     	overflow: auto;
         &:first-child {
          	margin-top: 0;
@@ -364,13 +370,34 @@ ul.iconlist {
         float: left;
     }
     .iconlist-icon {
-        margin-right: 1.25em;
+        margin-right: 16px;
         border: 1px solid #e1e1e1;
     }
 }
 
-ul.DataList .Item {
-    @include rounded-box;
+ul.DataList {
+    margin: 0;
+    li.Item {
+        border: 0;
+        padding: 0 0 6px 0;
+
+        .ItemContent {
+            margin: 0;
+        }
+
+        .Options,
+        .MItem.Category {
+            display: none;
+        }
+    }
+}
+
+.MessageList {
+
+    .Item {
+        padding: 16px;
+    }
+
 }
 
 
@@ -442,9 +469,20 @@ form.poll {
     }
 }
 
-#Popup form ul {
-    margin-left: 0;
+#Popup {
+    h1 {
+        @include blue-header;
+    }
+
+    form {
+        ul {
+            margin-left: 0;
+            list-style-type: none;
+        }
+    }
+
 }
+
 
 #stats {
 	color: #404040;
