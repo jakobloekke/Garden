@@ -5,8 +5,8 @@
 
 
 @import "compass";
-@import "partials/_variables";
 @import "partials/html5-boilerplate";
+@import "partials/_variables";
 @import "partials/vanilla-overrides";
 
 /* apply a natural box layout model to all elements */
@@ -18,44 +18,6 @@
 
 
 /* Lydmaskinen V2 */
-
-
-/* Mixins */
-@mixin rounded-box
-{
-	background-color: white;
-	border: 1px solid #e1e1e1;
-    margin-bottom: 15px;
-	@include border-radius(6px);
-
-    &.headline h2 {
-        @include border-radius(6px 6px 0 0);
-    }
-}
-
-@mixin blue-header
-{
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 7px 15px;
-    height: 30px;
-    position: relative;
-
-    @include background-image(linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 24%, rgba(54,87,118,1) 79%, rgba(103,128,151,1) 100%));
-}
-
-@mixin bubble-gradient($color) {
-    @include background-image(
-        linear-gradient(top,
-            lighten($color, 12%) 43%,
-            $color 54%
-        )
-    );
-}
-
-
-
 
 /* Basics */
 
@@ -103,7 +65,11 @@ a, a:active, a:visited {
     }
 }
 
-
+a.Button {
+    //extends basic Vanilla button
+    display: inline-block;
+    margin-bottom: 8px;
+}
 
 
 
@@ -145,18 +111,12 @@ div.Box h4 {
 	overflow: visible;
 }
 
-.leftcol,
-.rightcol {
-	float: left;
-}
-
 .leftcol {
-	width: 300px;
-    margin-right: 40px;
+	@include leftcol;
 }
 
 .rightcol {
-	width: 640px;
+	@include rightcol;
 }
 
 .stayright{
@@ -353,8 +313,8 @@ nav{
 }
 
 ul.iconlist {
-	margin: 0;
-	list-style-type: none;
+	@include nobullets;
+
     padding: 16px;
 
     li {
@@ -380,7 +340,8 @@ ul.iconlist {
 }
 
 ul.DataList {
-    margin: 0;
+    @include nobullets;
+
     li.Item {
         padding: 0 0 6px 0;
 
@@ -483,10 +444,66 @@ ul.DataList {
 
 
 
+/* Profile */
+
+body.Profile {
+
+    .ProfilePhotoLarge {
+        @include border-radius(6px);
+    }
+
+    #Content {
+        margin: 0;
+        @include rightcol;
+
+        .Profile {
+            @include rounded-box;
+
+            .User {
+                padding: 16px;
+                line-height: 2em;
+
+                h1 {
+                    font-size: 16px;
+                }
+
+                .About {
+
+                    dl {
+                        width: 100%;
+                        overflow: auto;
+
+                        dt, dd {
+                            float: left;
+                            width: 50%;
+                        }
+                        dt {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .Tabs {
+
+            }
+
+            .TabContent {
+                padding: 16px;
+            }
+        }
+    }
+}
 
 
 
 /* Other */
+
+form {
+    ul {
+        @include nobullets;
+    }
+}
 
 form.poll {
 	font-size: 14px;
@@ -501,14 +518,6 @@ form.poll {
     h1 {
         @include blue-header;
     }
-
-    form {
-        ul {
-            margin-left: 0;
-            list-style-type: none;
-        }
-    }
-
 }
 
 

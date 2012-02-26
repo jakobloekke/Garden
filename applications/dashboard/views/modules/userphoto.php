@@ -12,10 +12,12 @@ if ($User->Photo != '') {
       else
          $Img = Img(Gdn_Upload::Url(ChangeBasename($User->Photo, 'p%s')), array('class' => 'ProfilePhotoLarge'));
          
-      if (Gdn::Session()->UserID == $User->UserID)
-         echo Anchor(Wrap(T('Change Picture')).$Img, '/profile/picture/', 'ChangePicture');
-      else
+      if (Gdn::Session()->UserID == $User->UserID) {
+         echo Anchor(T('Change Picture'), '/profile/picture/', 'ChangePicture Button');
          echo $Img;
+      } else {
+         echo $Img;
+      }
       ?>
    </div>
 <?php } else if ($User->UserID == Gdn::Session()->UserID) { ?>

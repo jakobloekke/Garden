@@ -1,4 +1,58 @@
 
-$blue: #365776;
 
+$blue: #365776;
 $masterwidth: 980px;
+
+
+/* Mixins */
+
+@mixin leftcol
+{
+    width: 300px;
+    margin-right: 40px;
+    float: left;
+}
+
+@mixin rightcol
+{
+    width: 640px;
+    float: left;
+}
+
+@mixin rounded-box
+{
+	background-color: white;
+	border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+	@include border-radius(6px);
+
+    &.headline h2 {
+        @include border-radius(6px 6px 0 0);
+    }
+}
+
+@mixin blue-header
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 15px;
+    height: 30px;
+    position: relative;
+
+    @include background-image(linear-gradient(top,  rgba(103,128,151,1) 1%, rgba(54,87,118,1) 24%, rgba(54,87,118,1) 79%, rgba(103,128,151,1) 100%));
+}
+
+@mixin bubble-gradient($color) {
+    @include background-image(
+        linear-gradient(top,
+            lighten($color, 12%) 43%,
+            $color 54%
+        )
+    );
+}
+
+@mixin nobullets {
+    margin-left: 0;
+    list-style-type: none;
+}

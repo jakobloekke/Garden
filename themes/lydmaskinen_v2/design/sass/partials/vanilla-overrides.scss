@@ -12,10 +12,10 @@ div.Box{ /* Overrides standard Vanilla class */
     padding: 12px;
 }
 
-body.Discussion #Content {
-    //overflow: hidden;
-}
-
 .Mine {
     background-color: transparent;
+}
+
+ul.PanelInfo {
+    @include nobullets;
 }
