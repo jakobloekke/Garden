@@ -13,8 +13,13 @@ $this->EventArguments['Type'] = 'Discussion';
 
 ?>
 <div id="<?php echo 'Discussion_'.$Discussion->DiscussionID; ?>" class="<?= CssClass($Discussion); ?>">
-   <div class="DiscussionHeader">
-      <div class="Meta">
+
+    <?php $this->FireEvent('lydmaskinenPost'); ?>
+
+
+    <!--
+    <div class="DiscussionHeader">
+       <div class="Meta">
          <span class="Author">
             <?php
             echo UserPhoto($Author);
@@ -39,6 +44,7 @@ $this->EventArguments['Type'] = 'Discussion';
          <?php $this->FireEvent('AfterDiscussionMeta'); ?>
       </div>
    </div>
+
    <?php $this->FireEvent('BeforeDiscussionBody'); ?>
    <div class="Message">   
       <?php
@@ -46,4 +52,5 @@ $this->EventArguments['Type'] = 'Discussion';
       ?>
    </div>
    <?php $this->FireEvent('AfterDiscussionBody'); ?>
+   -->
 </div>

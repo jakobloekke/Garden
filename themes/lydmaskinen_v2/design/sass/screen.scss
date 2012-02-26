@@ -25,7 +25,6 @@
 {
 	background-color: white;
 	border: 1px solid #e1e1e1;
-    overflow: hidden;
     margin-bottom: 15px;
 	@include border-radius(6px);
 
@@ -76,7 +75,33 @@ a, a:active, a:visited {
     }
 }
 
+.bubble{
+    color: white;
+    margin: 0 3px;
+    padding: 2px 6px;
+    font-weight: 600;
+    background-color: gray;
+    @include border-radius(12px);
+    @include box-shadow(
+        white 0 0 0 2px,
+        rgba(0,0,0,0.4) -1px 2px 3px 0
+    );
+    @include transition-duration(200ms);
+    opacity: 0.5;
 
+    &.red{
+        @include bubble-gradient(red);
+    }
+    &.blue{
+        @include bubble-gradient($blue);
+    }
+    &.green{
+        @include bubble-gradient(#2a8923);
+    }
+    &:hover {
+        opacity: 1;
+    }
+}
 
 
 
@@ -117,7 +142,7 @@ div.Box h4 {
 	width:$masterwidth;
 }
 #main.wrapper {
-	overflow: hidden;
+	overflow: visible;
 }
 
 .leftcol,
@@ -162,31 +187,6 @@ div.Box h4 {
 
             &:first-child{
                 margin: 0 3px 0 0;
-            }
-
-            .bubble{
-                color: white;
-                margin: 0 3px;
-                padding: 2px 6px;
-                font-weight: 600;
-                background-color: gray;
-                @include border-radius(12px);
-                @include box-shadow(
-                    white 0 0 0 2px,
-                    rgba(0,0,0,0.4) -1px 2px 3px 0
-                );
-                @include transition-duration(200ms);
-                opacity: 0.5;
-
-                &.red{
-                    @include bubble-gradient(red);
-                }
-                &.blue{
-                    @include bubble-gradient($blue);
-                }
-                &.green{
-                    @include bubble-gradient(#2a8923);
-                }
             }
 
             &:hover .bubble{
@@ -382,7 +382,6 @@ ul.iconlist {
 ul.DataList {
     margin: 0;
     li.Item {
-        border: 0;
         padding: 0 0 6px 0;
 
         .ItemContent {
@@ -415,13 +414,16 @@ ul.DataList {
     // The initial post
     &.Discussion {
         .Item {
-            height: 294px;
+            height: 294px; // TODO: Remove this rule!
         }
     }
 
-    // Answers
+    // The answer thread
     li.Item {
         @include rounded-box;
+        .Meta {
+            @include border-radius(6px 6px 0 0);
+        }
     }
 
 }

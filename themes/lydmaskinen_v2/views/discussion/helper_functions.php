@@ -80,15 +80,17 @@ function WriteComment($Comment, $Sender, $Session, $CurrentOffset) {
    $Sender->EventArguments['CssClass'] = &$CssClass;
    
    // DEPRECATED ARGUMENTS (as of 2.1)
-	$Sender->EventArguments['Object'] = &$Comment; 
+   $Sender->EventArguments['Object'] = &$Comment;
    $Sender->EventArguments['Type'] = 'Comment';
    
    // First comment template event
    $Sender->FireEvent('BeforeCommentDisplay'); ?>
 <li class="<?php echo CssClass($Comment, $CurrentOffset); ?>" id="<?php echo 'Comment_'.$Comment->CommentID; ?>">
-   <div class="Comment">
-      <div class="Meta">
-         <?php $Sender->FireEvent('BeforeCommentMeta'); ?>
+
+      <?php $Sender->FireEvent('lydmaskinenPost'); ?>
+
+    <!--
+       <div class="Meta">
          <span class="Author">
             <?php
             echo UserPhoto($Author);
@@ -120,13 +122,16 @@ function WriteComment($Comment, $Sender, $Session, $CurrentOffset) {
          </div>
          <?php $Sender->FireEvent('AfterCommentMeta'); ?>
       </div>
+
+
       <div class="Message">
 			<?php 
          echo FormatBody($Comment);
 			?>
 		</div>
       <?php $Sender->FireEvent('AfterCommentBody'); ?>
-   </div>
+      -->
+
 </li>
 <?php
 	$Sender->FireEvent('AfterComment');
