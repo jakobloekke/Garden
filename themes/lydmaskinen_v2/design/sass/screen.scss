@@ -392,10 +392,14 @@ ul.DataList {
             @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
         }
 
-        .Message,
-        .UserSignature
+        .Message
         {
+            font-size: 14px;
             padding: 16px;
+        }
+        .UserSignature {
+            font-size: 12px;
+            padding: 0 16px 16px;
         }
     }
 

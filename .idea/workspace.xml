@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="Refactoring of styles">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_links.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_lists.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_text.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_vertical_rhythm.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_clearfix.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_float.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_hacks.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_min.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_tag-cloud.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/257118799312f10d0785641acb3d0af4165868eb/_sprite-img.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_color.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_general.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_sprites.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_tables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2e9bf21030bdc5100fa5242b1a28f8940fdfe336/_contrast.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_alternating-rows-and-columns.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_borders.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_scaffolding.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/3367e91943961dd5fa4762b817f8777f228a2b41/_compass.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_css3.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_support.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_typography.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_ellipsis.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_force-wrap.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_nowrap.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_replacement.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/47f482ea31115301b5c8dd9d84f604411123a011/_grid-background.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/7d6f2e208bb55d3fb84c6ec53067417bec901027/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/ie.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/print.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/_variables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/html5-boilerplate.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/vanilla-overrides.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_bullets.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_horizontal-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_inline-block-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_inline-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_appearance.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-clip.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-origin.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-size.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_border-radius.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box-shadow.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box-sizing.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_columns.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_font-face.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_gradient.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_images.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_inline-block.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_opacity.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_shared.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_text-shadow.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_transform.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_transition.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_hover-link.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_link-colors.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_unstyled-link.scssc" afterPath="" />
+    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="Styled signature and deleted sass-cache">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" afterPath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Signatures/views/usersig.php" afterPath="$PROJECT_DIR$/plugins/Signatures/views/usersig.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css" />
     </list>
@@ -106,7 +42,7 @@
       <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="9" selection-start="7079" selection-end="7079" vertical-scroll-proportion="0.5910543">
+            <state line="401" column="32" selection-start="7041" selection-end="7041" vertical-scroll-proportion="0.55910546">
               <folding />
             </state>
           </provider>
@@ -664,7 +600,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring of styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled signature and deleted sass-cache" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -677,7 +613,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Fixed some sluggish errors" />
     <MESSAGE value="Loads of styling and configuration&#10;" />
     <MESSAGE value="Added scss" />
     <MESSAGE value="Added scss + some changes to code" />
@@ -702,6 +637,7 @@
     <MESSAGE value="sass-cache" />
     <MESSAGE value="Little test change" />
     <MESSAGE value="Refactoring of styles" />
+    <MESSAGE value="Styled signature and deleted sass-cache" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -804,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="9" selection-start="7079" selection-end="7079" vertical-scroll-proportion="0.5910543">
+        <state line="401" column="32" selection-start="7041" selection-end="7041" vertical-scroll-proportion="0.55910546">
           <folding />
         </state>
       </provider>
