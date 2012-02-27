@@ -67,7 +67,7 @@ class SignaturesPlugin extends Gdn_Plugin {
       }
    }
    
-   public function ProfileController_Signature_Create(&$Sender) {
+   public function ProfileController_Signature_Create($Sender) {
       if (!C('Plugins.Signatures.Enabled'))
          return;
 

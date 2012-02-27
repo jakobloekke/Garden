@@ -1,54 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+    <list id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view" />
+    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/design/logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/buynow.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/text-base/flexigrid.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/prop-base/add.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/prop-base/close.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/bg.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/btn-sprite.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/ddn.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/dn.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/fhbg.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/first.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/hl.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/last.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/line.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/load.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/load.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/magnifier.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/next.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/prev.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/up.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/uup.png.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/wbg.gif.svn-work" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/add.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/bg.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/btn-sprite.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/close.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/ddn.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/dn.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/fhbg.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/first.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/hl.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/last.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/line.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/load.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/load.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/magnifier.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/next.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/prev.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/up.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/uup.png.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/wbg.gif.svn-base" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/bg.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/btn-sprite.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/ddn.png" />
@@ -66,9 +23,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/up.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/uup.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/wbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/.svn/text-base/flexigrid.pack.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmabankmodel.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmarulesmodel.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/default.php" />
@@ -606,9 +560,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="" />
+      <changelist id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="" />
       <created>1328702111703</created>
-      <updated>1328702111703</updated>
+      <updated>1330347135839</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -635,6 +591,7 @@
     <frame x="0" y="22" width="1822" height="1107" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.64640886" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -651,7 +608,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24291497" sideWeight="0.996997" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,7 +647,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial styling of Profile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added link to local DB" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -723,6 +679,7 @@
     <MESSAGE value="Some styling and initiated custom hook for rendering posts in discussions" />
     <MESSAGE value="Added plugins" />
     <MESSAGE value="Initial styling of Profile view" />
+    <MESSAGE value="Added link to local DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
