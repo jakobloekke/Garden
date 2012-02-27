@@ -1,38 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/activity_atom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/activity_rss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/info.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/invitations.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/notifications.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/password.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/picture.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/preferences.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/tabs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/thumbnail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/user.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/Smarty/compile/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/Smarty/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/class.embedvanilla.plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/design/gadgethelp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/design/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/remote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/views/gadget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/embedvanilla/views/settings.php" afterPath="" />
+    <list default="true" id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/design/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/buynow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/all-wcprops" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/entries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/.svn/text-base/flexigrid.css.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/all-wcprops" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/entries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/prop-base/add.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/prop-base/close.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/bg.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/btn-sprite.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/ddn.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/dn.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/fhbg.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/first.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/hl.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/last.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/line.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/load.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/load.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/magnifier.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/next.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/prev.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/up.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/uup.png.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/props/wbg.gif.svn-work" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/add.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/bg.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/btn-sprite.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/close.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/ddn.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/dn.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/fhbg.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/first.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/hl.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/last.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/line.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/load.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/load.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/magnifier.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/next.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/prev.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/up.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/uup.png.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/.svn/text-base/wbg.gif.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/btn-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/ddn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/dn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/fhbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/hl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/load.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/uup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/wbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/.svn/entries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/.svn/text-base/flexigrid.pack.js.svn-base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmabankmodel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmarulesmodel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/design/karma.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/views/karmabank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/views/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PostCount/class.postcount.plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/class.ipnlistener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/class.premiumlogmodel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/flexigrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/flexigrid.pack.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/flexigrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/flexigrid.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/registerbasic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/registercaptcha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/settingslog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/upgrade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/css/cleditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/css/quotes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/js/quotes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/views/getquote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/activityfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/condition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/guest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/me.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/profilefilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/profileoptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/recentactivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/recentuser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/sidemenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/signedin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userinfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userphoto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/applications/dashboard/views/modules/userphoto.php" afterPath="$PROJECT_DIR$/applications/dashboard/views/modules/userphoto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/_variables.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/vanilla-overrides.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/vanilla-overrides.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" afterPath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" />
     </list>
     <ignored path="Garden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,71 +139,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss">
+      <file leaf-file-name="class.lydmaskinenthemehooks.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="1" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+            <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-25.916666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profileoptions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/profileoptions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-16.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userphoto.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/userphoto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="86" selection-start="574" selection-end="574" vertical-scroll-proportion="0.36764705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="-11.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="picture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/picture.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profilefilter.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/profilefilter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="39" selection-start="612" selection-end="612" vertical-scroll-proportion="-9.333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.hooks.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/dashboard/settings/class.hooks.php">
+      <file leaf-file-name="class.quotes.plugin.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -130,10 +157,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuration.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/vanilla/settings/configuration.php">
+      <file leaf-file-name="class.signatures.plugin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="232" column="42" selection-start="8699" selection-end="8699" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper_functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/helper_functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="44" selection-start="2043" selection-end="2043" vertical-scroll-proportion="15.791667">
               <folding />
             </state>
           </provider>
@@ -154,13 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/profilecomments.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/discussion.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/helper_functions.php" />
-        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
-        <option value="$PROJECT_DIR$/applications/dashboard/views/profile/signature.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" />
         <option value="$PROJECT_DIR$/plugins/Signatures/views/signature.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/vanilla-overrides.scss" />
@@ -170,10 +199,17 @@
         <option value="$PROJECT_DIR$/applications/dashboard/views/modules/userphoto.php" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss" />
         <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/picture.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/profileoptions.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/signature.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
+        <option value="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/helper_functions.php" />
+        <option value="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
       </list>
     </option>
   </component>
-  <component name="PhpDebugGeneral" local_pass_configuration_options="false" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpDebugGeneral" local_pass_configuration_options="false" values_tooltip_delay="100" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
   <component name="PhpServers">
     <option name="servers">
       <server host="localhost" name="localhost" />
@@ -182,8 +218,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="width" value="1822" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -305,7 +341,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="profile" />
+              <option name="myItemId" value="discussions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Garden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lydmaskinen_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discussion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,139 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,16 +443,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="202" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="199" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="206" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="998" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1000" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="998" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="204" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="201" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -536,6 +467,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig" serverName="Lydmaskinen - QA (Mobilseddel)" serverId="e00c66e7-5774-43b1-b074-75702a6d3fd3">
     <servers>
@@ -562,7 +494,13 @@
       <recent name="$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Query Language Console.Default">
+    <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" scope="Directory">
       <TestRunner />
       <method>
@@ -578,17 +516,17 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" session_id="PHPSTORM">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
           <server_name />
         </option>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -639,11 +577,13 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Query Language Console.Default" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value="Show Inherited" />
+    <option name="ACTIVE_ACTIONS" value="Show Constants,Show Includes,Show Inherited,Show Fields" />
   </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
@@ -692,26 +632,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1822" height="1107" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.64640886" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24309392" sideWeight="0.996997" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6718232" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39779004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.38232043" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.23756906" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.7569061" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27057496" sideWeight="0.45647773" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6718232" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27339345" sideWeight="0.6467611" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35323888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.38232043" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24291497" sideWeight="0.996997" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -751,7 +691,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial styling of Profile view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -782,121 +722,94 @@
     <MESSAGE value="Initial styling of thread view" />
     <MESSAGE value="Some styling and initiated custom hook for rendering posts in discussions" />
     <MESSAGE value="Added plugins" />
+    <MESSAGE value="Initial styling of Profile view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/library/core/functions.error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="18" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.32026145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/core/class.autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="529" column="0" selection-start="19101" selection-end="19101" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="9" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.3322034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/dashboard/controllers/class.profilecontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="463" column="0" selection-start="16742" selection-end="16742" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/core/class.dispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="0" selection-start="11467" selection-end="11467" vertical-scroll-proportion="0.0751634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="64" selection-start="682" selection-end="682" vertical-scroll-proportion="0.15519126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/profilecomments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussions/helper_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="37" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-0.13157895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="42" selection-start="8699" selection-end="8699" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/helper_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="44" selection-start="2043" selection-end="2043" vertical-scroll-proportion="15.791667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/stylesheets/screen.css">
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.3950176">
+        <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-25.916666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/style.css">
+    <entry file="file://$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1329669646000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/partials/vanilla-overrides.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/profilefilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="612" selection-end="612" vertical-scroll-proportion="-9.333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/vanilla/settings/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/settings/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/settings/class.hooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/modules/class.userinfomodule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.45962733">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/profileoptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/design/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="1" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/js/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.3537736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/dashboard/views/modules/userphoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="86" selection-start="574" selection-end="574" vertical-scroll-proportion="0.36764705">
           <folding />
         </state>
       </provider>
