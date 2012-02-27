@@ -17,5 +17,5 @@ $ThemeInfo['lydmaskinen'] = array(
    'Version' => '2.0',
    'Author' => "Holger Lagerfeldt (design) & Jakob Løkke Madsen (code)",
    'AuthorEmail' => 'jakob@jakobloekkemadsen.com',
-   'AuthorUrl' => 'http://www.jakobloekkemadsen.com///'
+   'AuthorUrl' => 'http://www.jakobloekkemadsen.com/'
 );
