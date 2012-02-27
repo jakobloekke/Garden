@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view" />
-    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/design/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/buynow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/design/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/btn-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/ddn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/dn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/fhbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/first.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/hl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/last.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/load.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/load.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/magnifier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/next.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/prev.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/uup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/images/wbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmabankmodel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/class.karmarulesmodel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/design/karma.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/views/karmabank.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/KarmaBank/views/settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PostCount/class.postcount.plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/class.ipnlistener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/class.premiumlogmodel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/flexigrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/css/flexigrid.pack.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/flexigrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/library/flexigrid/js/flexigrid.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/registerbasic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/registercaptcha.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/settingslog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/PremiumAccounts/views/upgrade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/css/cleditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/css/quotes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/js/quotes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/Quotes/views/getquote.php" />
+    <list id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/activityfilter.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/condition.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/configuration.php" />
@@ -64,13 +17,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userinfo.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userphoto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" afterPath="$PROJECT_DIR$/plugins/Signatures/class.signatures.plugin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" />
     </list>
+    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="New changelist" />
     <ignored path="Garden.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="670cb389-ef46-4846-bbb2-80d77280d255" time="1330347183790" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,16 +47,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class.lydmaskinenthemehooks.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="class.lydmaskinenthemehooks.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-25.916666">
+            <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.6638207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.quotes.plugin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="class.quotes.plugin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -248,128 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discussions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discussion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Garden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lydmaskinen_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,7 +479,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added link to local DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of relevant plugins" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -680,6 +512,7 @@
     <MESSAGE value="Added plugins" />
     <MESSAGE value="Initial styling of Profile view" />
     <MESSAGE value="Added link to local DB" />
+    <MESSAGE value="Added a bunch of relevant plugins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,16 +590,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
+    <entry file="file://$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-25.916666">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Quotes/class.quotes.plugin.php">
+    <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.6638207">
           <folding />
         </state>
       </provider>

@@ -25,10 +25,8 @@ echo '<section class="headline MessageList Discussion '.CssClass($this->Data('Di
 // Write the initial discussion.
 if ($this->Data('Page') == 1) {
    include $this->FetchViewLocation('discussion', 'discussion');
-   echo '</section>'; // close discussion wrap
-} else {
-   echo '</section>'; // close discussion wrap
 }
+echo '</section>'; // close discussion wrap
 ?>
 
 
