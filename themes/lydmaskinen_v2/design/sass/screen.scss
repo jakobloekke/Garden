@@ -392,7 +392,9 @@ ul.DataList {
             @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
         }
 
-        .Message {
+        .Message,
+        .UserSignature
+        {
             padding: 16px;
         }
     }

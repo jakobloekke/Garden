@@ -1,1 +1,5 @@
-<div class="UserSignature"><?php echo $this->UserSignature; ?></div>
+<div class="UserSignature">
+    --
+    <br />
+    <?= $this->UserSignature; ?>
+</div>

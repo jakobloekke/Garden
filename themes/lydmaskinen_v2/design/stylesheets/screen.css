@@ -176,7 +176,7 @@ ul.DataList li.Item .ItemContent { margin: 0; }
 ul.DataList li.Item .Options, ul.DataList li.Item .MItem.Category { display: none; }
 
 .MessageList .Item .Meta { height: 63px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
-.MessageList .Item .Message { padding: 16px; }
+.MessageList .Item .Message, .MessageList .Item .UserSignature { padding: 16px; }
 .MessageList.Discussion .Item { height: 311px; }
 .MessageList li.Item { background-color: white; border: 1px solid #e1e1e1; margin-bottom: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
 .MessageList li.Item.headline h2 { -moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; -o-border-radius: 6px 6px 0 0; -ms-border-radius: 6px 6px 0 0; -khtml-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; }
