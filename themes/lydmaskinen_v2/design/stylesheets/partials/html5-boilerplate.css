@@ -1,235 +1,78 @@
 /* HTML5 ✰ Boilerplate  */
-/* line 11, ../../sass/partials/html5-boilerplate.scss */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
-/* line 21, ../../sass/partials/html5-boilerplate.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-/* line 25, ../../sass/partials/html5-boilerplate.scss */
-blockquote, q {
-  quotes: none;
-}
+blockquote, q { quotes: none; }
 
-/* line 27, ../../sass/partials/html5-boilerplate.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 
-/* line 28, ../../sass/partials/html5-boilerplate.scss */
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
-}
+ins { background-color: #ff9; color: #000; text-decoration: none; }
 
-/* line 29, ../../sass/partials/html5-boilerplate.scss */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
 
-/* line 30, ../../sass/partials/html5-boilerplate.scss */
-del {
-  text-decoration: line-through;
-}
+del { text-decoration: line-through; }
 
-/* line 31, ../../sass/partials/html5-boilerplate.scss */
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
 
-/* line 32, ../../sass/partials/html5-boilerplate.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 33, ../../sass/partials/html5-boilerplate.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 
-/* line 34, ../../sass/partials/html5-boilerplate.scss */
-input, select {
-  vertical-align: middle;
-}
+input, select { vertical-align: middle; }
 
-/* line 36, ../../sass/partials/html5-boilerplate.scss */
-body {
-  font: 12px sans-serif;
-  *font-size: small;
-}
+body { font: 12px sans-serif; *font-size: small; }
 
-/* line 37, ../../sass/partials/html5-boilerplate.scss */
-select, input, textarea, button {
-  font: 99% sans-serif;
-}
+select, input, textarea, button { font: 99% sans-serif; }
 
-/* line 38, ../../sass/partials/html5-boilerplate.scss */
-pre, code, kbd, samp {
-  font-family: monospace, sans-serif;
-}
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
-/* line 40, ../../sass/partials/html5-boilerplate.scss */
-html {
-  overflow-y: scroll;
-}
+html { overflow-y: scroll; }
 
-/* line 41, ../../sass/partials/html5-boilerplate.scss */
-a:hover, a:active {
-  outline: none;
-}
+a:hover, a:active { outline: none; }
 
-/* line 42, ../../sass/partials/html5-boilerplate.scss */
-ul, ol {
-  margin-left: 2em;
-}
+ul, ol { margin-left: 2em; }
 
-/* line 43, ../../sass/partials/html5-boilerplate.scss */
-ol {
-  list-style-type: decimal;
-}
+ol { list-style-type: decimal; }
 
-/* line 44, ../../sass/partials/html5-boilerplate.scss */
-nav ul, nav li {
-  margin: 0;
-  list-style: none;
-  list-style-image: none;
-}
+nav ul, nav li { margin: 0; list-style: none; list-style-image: none; }
 
-/* line 45, ../../sass/partials/html5-boilerplate.scss */
-small {
-  font-size: 85%;
-}
+small { font-size: 85%; }
 
-/* line 46, ../../sass/partials/html5-boilerplate.scss */
-strong, th {
-  font-weight: bold;
-}
+strong, th { font-weight: bold; }
 
-/* line 47, ../../sass/partials/html5-boilerplate.scss */
-td {
-  vertical-align: top;
-}
+td { vertical-align: top; }
 
-/* line 49, ../../sass/partials/html5-boilerplate.scss */
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-}
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
 
-/* line 50, ../../sass/partials/html5-boilerplate.scss */
-sup {
-  top: -0.5em;
-}
+sup { top: -0.5em; }
 
-/* line 51, ../../sass/partials/html5-boilerplate.scss */
-sub {
-  bottom: -0.25em;
-}
+sub { bottom: -0.25em; }
 
-/* line 53, ../../sass/partials/html5-boilerplate.scss */
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  padding: 15px;
-}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
 
-/* line 54, ../../sass/partials/html5-boilerplate.scss */
-textarea {
-  overflow: auto;
-}
+textarea { overflow: auto; }
 
-/* line 55, ../../sass/partials/html5-boilerplate.scss */
-.ie6 legend, .ie7 legend {
-  margin-left: -7px;
-}
+.ie6 legend, .ie7 legend { margin-left: -7px; }
 
-/* line 56, ../../sass/partials/html5-boilerplate.scss */
-input[type="radio"] {
-  vertical-align: text-bottom;
-}
+input[type="radio"] { vertical-align: text-bottom; }
 
-/* line 57, ../../sass/partials/html5-boilerplate.scss */
-input[type="checkbox"] {
-  vertical-align: bottom;
-}
+input[type="checkbox"] { vertical-align: bottom; }
 
-/* line 58, ../../sass/partials/html5-boilerplate.scss */
-.ie7 input[type="checkbox"] {
-  vertical-align: baseline;
-}
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
 
-/* line 59, ../../sass/partials/html5-boilerplate.scss */
-.ie6 input {
-  vertical-align: text-bottom;
-}
+.ie6 input { vertical-align: text-bottom; }
 
-/* line 60, ../../sass/partials/html5-boilerplate.scss */
-label, input[type="button"], input[type="submit"], input[type="image"], button {
-  cursor: pointer;
-}
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
 
-/* line 61, ../../sass/partials/html5-boilerplate.scss */
-button, input, select, textarea {
-  margin: 0;
-}
+button, input, select, textarea { margin: 0; }
 
-/* line 63, ../../sass/partials/html5-boilerplate.scss */
-input:invalid, textarea:invalid {
-  border-radius: 1px;
-  -moz-box-shadow: 0px 0px 5px red;
-  -webkit-box-shadow: 0px 0px 5px red;
-  box-shadow: 0px 0px 5px red;
-}
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
 
-/* line 64, ../../sass/partials/html5-boilerplate.scss */
-a:link {
-  -webkit-tap-highlight-color: #FF5E99;
-}
+a:link { -webkit-tap-highlight-color: #FF5E99; }
 
-/* line 66, ../../sass/partials/html5-boilerplate.scss */
-button {
-  width: auto;
-  overflow: visible;
-}
+button { width: auto; overflow: visible; }
 
-/* line 67, ../../sass/partials/html5-boilerplate.scss */
-.ie7 img {
-  -ms-interpolation-mode: bicubic;
-}
+.ie7 img { -ms-interpolation-mode: bicubic; }
 
-/* line 69, ../../sass/partials/html5-boilerplate.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
