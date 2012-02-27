@@ -1,30 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="Initial styling of Profile view">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/activityfilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/condition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/guest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/me.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/profilefilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/profileoptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/recentactivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/recentuser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/sidemenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/signedin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/modules/userphoto.php" />
+    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="Added some files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_links.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/09e1e1f9fd4402236e775455d15766578fb976ff/_vertical_rhythm.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_float.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_hacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_min.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/0c6da0fedfe6ba00ac91e45612eb724ccf05f95f/_tag-cloud.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/257118799312f10d0785641acb3d0af4165868eb/_sprite-img.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_color.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_general.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_sprites.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2d7bb77e45c7fc64927558b21f109617f385d23c/_tables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/2e9bf21030bdc5100fa5242b1a28f8940fdfe336/_contrast.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_alternating-rows-and-columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_borders.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/32acfa22be9a9aeab38db78043917820ec28c500/_scaffolding.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/3367e91943961dd5fa4762b817f8777f228a2b41/_compass.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_css3.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_typography.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/35163ebe99a359972ff8921fd495a4d31ad0e65d/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_ellipsis.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_force-wrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_nowrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/428c90fdab61e3f835a18e705afa76dc13689dda/_replacement.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/47f482ea31115301b5c8dd9d84f604411123a011/_grid-background.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/7d6f2e208bb55d3fb84c6ec53067417bec901027/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/8a28b5fa67f2a9e6dff26030a9534b8a50a30c26/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/_variables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/html5-boilerplate.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/951ea5ff46b2d272bb50a2dec5d7305cde7d9417/vanilla-overrides.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_bullets.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_horizontal-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_inline-block-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/9f6fa0721b78d8fbebd1de716153ed12d722e0d6/_inline-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_appearance.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-clip.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-origin.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_background-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_border-radius.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box-sizing.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_box.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_font-face.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_gradient.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_images.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_inline-block.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_opacity.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_shared.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_text-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_transform.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/b2291351f6f4358d516fffa26e4a5a4df0f9907c/_transition.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_hover-link.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_link-colors.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/design/.sass-cache/e6c6fc48db3d85735716d817d2442e5806794648/_unstyled-link.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/discussion/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" afterPath="$PROJECT_DIR$/themes/lydmaskinen_v2/views/profile/edit.php" />
     </list>
-    <list default="true" id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="New changelist" />
     <ignored path="Garden.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="670cb389-ef46-4846-bbb2-80d77280d255" time="1330347183790" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +93,7 @@
       <file leaf-file-name="class.lydmaskinenthemehooks.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.6638207">
+            <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="1.0163399">
               <folding />
             </state>
           </provider>
@@ -94,6 +137,9 @@
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -391,7 +437,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9779c2dc-1fc2-40b0-95f0-707ff9ac92f7" name="Default" comment="" />
       <changelist id="670cb389-ef46-4846-bbb2-80d77280d255" name="New changelist" comment="" />
       <created>1328702111703</created>
       <updated>1330347135839</updated>
@@ -425,16 +470,16 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.64640886" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27057496" sideWeight="0.45647773" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6718232" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27339345" sideWeight="0.6467611" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27339345" sideWeight="0.67105263" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35323888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.38232043" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -479,7 +524,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of relevant plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -513,6 +558,8 @@
     <MESSAGE value="Initial styling of Profile view" />
     <MESSAGE value="Added link to local DB" />
     <MESSAGE value="Added a bunch of relevant plugins" />
+    <MESSAGE value="Styling of comments and signature" />
+    <MESSAGE value="Added some files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -599,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/lydmaskinen_v2/class.lydmaskinenthemehooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.6638207">
+        <state line="56" column="18" selection-start="1672" selection-end="1672" vertical-scroll-proportion="1.0163399">
           <folding />
         </state>
       </provider>
