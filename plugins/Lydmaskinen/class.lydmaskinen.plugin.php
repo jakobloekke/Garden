@@ -19,11 +19,9 @@ $PluginInfo['Lydmaskinen'] = array(
 class LydmaskinenPlugin extends Gdn_Plugin {
 
     // Additional info on category comments
-    public function CategoriesController_BeforeDiscussionContent_Handler($Sender) {
+    public function CategoriesController_AfterCountMeta_Handler($Sender) {
         $original_poster = $Sender->EventArguments['FirstUser'];
-
-        echo $original_poster->Name;
-
+        echo "<span class='MItem StartedBy'>".sprintf(T('Started by %1$s'), UserAnchor($original_poster))."</span>";
     }
 
     // The meta header for initial discussion topic
