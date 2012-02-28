@@ -18,10 +18,9 @@ $PluginInfo['Lydmaskinen'] = array(
 
 class LydmaskinenPlugin extends Gdn_Plugin {
 
-    // Additional info on category comments
+    // Show user link to original poster in post overview items
     public function CategoriesController_AfterCountMeta_Handler($Sender) {
-        $original_poster = $Sender->EventArguments['FirstUser'];
-        echo "<span class='MItem StartedBy'>".sprintf(T('Started by %1$s'), UserAnchor($original_poster))."</span>";
+        echo "<span class='MItem StartedBy'>".sprintf(T('Started by %1$s'), UserAnchor($Sender->EventArguments['FirstUser']))."</span>";
     }
 
     // The meta header for initial discussion topic

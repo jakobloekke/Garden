@@ -53,7 +53,6 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
          ?></span>
          <?php
             echo NewComments($Discussion);
-         
             $Sender->FireEvent('AfterCountMeta');
 
             if ($Discussion->LastCommentID != '') {

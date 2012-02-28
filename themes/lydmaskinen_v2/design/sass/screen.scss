@@ -338,11 +338,15 @@ nav{
 }
 
 
+ul.DataList,
+ul.iconlist {
+    @include nobullets;
+    padding: 15px;
+}
+
+
 // Forum overview
 ul.iconlist {
-	@include nobullets;
-
-    padding: 15px;
 
     li {
         margin-top: 16px;
@@ -383,19 +387,27 @@ ul.iconlist {
 }
 
 ul.DataList {
-    @include nobullets;
 
     li.Item {
         padding: 0 0 6px 0;
 
         .ItemContent {
             margin: 0;
+            line-height: 16px;
+        }
+        
+        a.Title {
+            margin-bottom: 6px;
         }
     }
 
     &.Discussions {
-        a.Title {
+        li.Item {
+            padding: 16px 0;
 
+            &:first-child {
+                padding-top: 0;
+            }
         }
     }
 }

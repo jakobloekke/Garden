@@ -14,7 +14,7 @@ WriteCheckController();
 
     ?>
 
-    <ul class="iconlist DataList Discussions">
+    <ul class="DataList Discussions">
        <?php include($this->FetchViewLocation('discussions'))?>
     </ul>
 
