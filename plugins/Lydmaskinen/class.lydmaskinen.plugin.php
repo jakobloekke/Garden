@@ -19,8 +19,11 @@ $PluginInfo['Lydmaskinen'] = array(
 class LydmaskinenPlugin extends Gdn_Plugin {
 
     // Additional info on category comments
-    public function CategoriesController_BeforeDiscussionContent_Handler(&$Sender) {
-        echo "hej";
+    public function CategoriesController_BeforeDiscussionContent_Handler($Sender) {
+        $original_poster = $Sender->EventArguments['FirstUser'];
+
+        echo $original_poster->Name;
+
     }
 
     // The meta header for initial discussion topic
