@@ -42,7 +42,7 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
    //WriteOptions($Discussion, $Sender, $Session);
    ?>
    <div class="ItemContent Discussion">
-      <?php echo Anchor($DiscussionName, $DiscussionUrl, 'Title'); ?>
+      <h4><?php echo Anchor($DiscussionName, $DiscussionUrl); ?></h4>
       <?php $Sender->FireEvent('AfterDiscussionTitle'); ?>
       <div class="Meta">
          <?php 

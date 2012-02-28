@@ -342,6 +342,15 @@ ul.DataList,
 ul.iconlist {
     @include nobullets;
     padding: 15px;
+
+    &.MessageList {
+        padding: 0; //override padding on message lists, since they are displayed as rounded boxes with their own padding
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
 }
 
 
@@ -373,10 +382,7 @@ ul.iconlist {
     }
     .iconlist-content {
         width: 544px;
-        
-        h4 {
-            font-size: 14px;
-        }
+
         p {
             font-weight: 200;
             &.meta {
@@ -396,7 +402,7 @@ ul.DataList {
             line-height: 16px;
         }
         
-        a.Title {
+        h4 {
             margin-bottom: 6px;
         }
     }
@@ -421,6 +427,13 @@ ul.DataList {
         .Meta {
             height: 63px;
             @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
+
+            .Author {
+
+                .ProfileLink {
+                    float: left;
+                }
+            }
         }
 
         .Message
@@ -437,7 +450,7 @@ ul.DataList {
     // The initial post
     &.Discussion {
         .Item {
-            height: 311px; // TODO: Remove this rule!
+
         }
     }
 

@@ -15,6 +15,15 @@ $this->EventArguments['Type'] = 'Discussion';
 <div id="<?php echo 'Discussion_'.$Discussion->DiscussionID; ?>" class="<?= CssClass($Discussion); ?>">
 
     <div class="DiscussionHeader">
+
+        <div class="toolbar top">
+            <a href="#">Update via email</a>
+            &middot;
+            <a href="#">Tilføj favorit</a>
+            &middot;
+            <a class="like" href="#"><img src="<?= Url('/themes/lydmaskinen_v2/design/images/like.gif')?>" alt="like" />Synes godt om</a>
+        </div>
+
        <div class="Meta">
          <span class="Author">
             <?php

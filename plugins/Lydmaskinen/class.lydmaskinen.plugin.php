@@ -24,13 +24,13 @@ class LydmaskinenPlugin extends Gdn_Plugin {
     }
 
     // The meta header for initial discussion topic
-    public function DiscussionController_AfterDiscussionMeta_Handler(&$Sender) {
-        $this->_renderCommentToolbar(&$Sender);
-        $this->_renderCommentProfileBar(&$Sender);
+    public function DiscussionController_AfterDiscussionMeta_Handler($Sender) {
+        $this->_renderCommentToolbar($Sender);
+        $this->_renderCommentProfileBar($Sender);
     }
 
     // The meta header for comments
-    public function DiscussionController_AfterCommentMeta_Handler(&$Sender) {
+    public function DiscussionController_AfterCommentMeta_Handler($Sender) {
        $this->_renderCommentProfileBar(&$Sender);
     }
 
