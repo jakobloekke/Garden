@@ -49,8 +49,8 @@ function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Re
 
                 $listItems .=
                     "<li>
-                        <a href='" . Url('/categories/' . $Category->UrlCode) . "'>
-                            <img class='iconlist-icon' width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/content/' . $Category->UrlCode . '.jpg') . "' />
+                        <a class='iconlist-icon' href='" . Url('/categories/' . $Category->UrlCode) . "'>
+                            <img width='49' height='49' src='" . Url('/themes/lydmaskinen_v2/content/' . $Category->UrlCode . '.jpg') . "' />
                         </a>
                         <div class='iconlist-content'>
                             <h4>
@@ -60,11 +60,10 @@ function renderSelectedCategories($AllCategories, $SelectedCategories) // -> (Re
                             </h4>
                             <p>$Category->Description</p>
                             <p class='meta'>
-                                " . Gdn_Format::Date($Category->DateUpdated) . " :
-                                <a href='" . Url($Category->LastUrl) . "'>
-                                    $Category->LastTitle
-                                </a>
-                                af $Category->LastName
+                                <span class='LastCommentDate'>" . Gdn_Format::Date($Category->DateUpdated) . "</span>
+                                :
+                                <a href='" . Url($Category->LastUrl) . "'>$Category->LastTitle</a>
+                                <span class='LastCommentBy'>af $Category->LastName</span>
                             </p>
                         </div>
                     </li>";

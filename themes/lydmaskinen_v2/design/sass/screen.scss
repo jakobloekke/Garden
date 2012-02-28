@@ -337,10 +337,12 @@ nav{
     }
 }
 
+
+// Forum overview
 ul.iconlist {
 	@include nobullets;
 
-    padding: 16px;
+    padding: 15px;
 
     li {
         margin-top: 16px;
@@ -359,8 +361,24 @@ ul.iconlist {
         float: left;
     }
     .iconlist-icon {
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
         margin-right: 16px;
         border: 1px solid #e1e1e1;
+    }
+    .iconlist-content {
+        width: 544px;
+        
+        h4 {
+            font-size: 14px;
+        }
+        p {
+            font-weight: 200;
+            &.meta {
+
+            }
+        }
     }
 }
 
@@ -373,16 +391,17 @@ ul.DataList {
         .ItemContent {
             margin: 0;
         }
+    }
 
-        .Options,
-        .MItem.Category {
-            display: none;
+    &.Discussions {
+        a.Title {
+
         }
     }
 }
 
 
-
+// Message overview
 .MessageList {
 
     // Common styles
@@ -534,14 +553,14 @@ form {
     ul {
         @include nobullets;
     }
-}
 
-form.poll {
-	font-size: 14px;
-	line-height: 2em;
+    &.poll {
+        font-size: 14px;
+        line-height: 2em;
 
-    input{
-    	margin-right: 1em;
+        input{
+            margin-right: 1em;
+        }
     }
 }
 

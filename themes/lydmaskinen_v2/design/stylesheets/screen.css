@@ -118,7 +118,7 @@ h3, div.Box h4 { color: #202020; font-family: "helvetica neue", helvetica, arial
 
 #main.wrapper { overflow: visible; }
 
-.leftcol { width: 300px; margin-right: 40px; float: left; }
+.leftcol { width: 300px; margin-right: 39px; float: left; }
 
 .rightcol { width: 640px; float: left; }
 
@@ -163,17 +163,19 @@ nav #tipsandtricks { width: 157px; background-position: -375px 3px; }
 #main article section.headline h2 { color: white; font-size: 14px; font-weight: bold; padding: 7px 15px; height: 30px; position: relative; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #678097), color-stop(24%, #365776), color-stop(79%, #365776), color-stop(100%, #678097)); background-image: -webkit-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -moz-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -o-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -ms-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); }
 #main article #newPost { font-size: 16px; }
 
-ul.iconlist { margin-left: 0; list-style-type: none; padding: 16px; }
+ul.iconlist { margin-left: 0; list-style-type: none; padding: 15px; }
 ul.iconlist li { margin-top: 16px; overflow: auto; }
 ul.iconlist li:first-child { margin-top: 0; }
 ul.iconlist li a { text-decoration: none; }
 ul.iconlist .iconlist-icon, ul.iconlist .iconlist-content { float: left; }
-ul.iconlist .iconlist-icon { margin-right: 16px; border: 1px solid #e1e1e1; }
+ul.iconlist .iconlist-icon { overflow: hidden; width: 50px; height: 50px; margin-right: 16px; border: 1px solid #e1e1e1; }
+ul.iconlist .iconlist-content { width: 544px; }
+ul.iconlist .iconlist-content h4 { font-size: 14px; }
+ul.iconlist .iconlist-content p { font-weight: 200; }
 
 ul.DataList { margin-left: 0; list-style-type: none; }
 ul.DataList li.Item { padding: 0 0 6px 0; }
 ul.DataList li.Item .ItemContent { margin: 0; }
-ul.DataList li.Item .Options, ul.DataList li.Item .MItem.Category { display: none; }
 
 .MessageList .Item .Meta { height: 63px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
 .MessageList .Item .Message { font-size: 14px; padding: 16px; }
@@ -211,7 +213,6 @@ body.Profile #Content .Profile .TabContent { padding: 16px; }
 
 /* Other */
 form ul { margin-left: 0; list-style-type: none; }
-
 form.poll { font-size: 14px; line-height: 2em; }
 form.poll input { margin-right: 1em; }
 

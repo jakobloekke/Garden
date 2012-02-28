@@ -87,9 +87,6 @@ function WriteComment($Comment, $Sender, $Session, $CurrentOffset) {
    $Sender->FireEvent('BeforeCommentDisplay'); ?>
 <li class="<?php echo CssClass($Comment, $CurrentOffset); ?>" id="<?php echo 'Comment_'.$Comment->CommentID; ?>">
 
-      <?php $Sender->FireEvent('lydmaskinenPost'); ?>
-
-    <!--
        <div class="Meta">
          <span class="Author">
             <?php
@@ -130,7 +127,7 @@ function WriteComment($Comment, $Sender, $Session, $CurrentOffset) {
 			?>
 		</div>
       <?php $Sender->FireEvent('AfterCommentBody'); ?>
-      -->
+
 
 </li>
 <?php

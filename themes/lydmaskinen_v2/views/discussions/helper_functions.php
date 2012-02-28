@@ -39,7 +39,7 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
 
    $Sender->FireEvent('BeforeDiscussionContent');
 
-   WriteOptions($Discussion, $Sender, $Session);
+   //WriteOptions($Discussion, $Sender, $Session);
    ?>
    <div class="ItemContent Discussion">
       <?php echo Anchor($DiscussionName, $DiscussionUrl, 'Title'); ?>
