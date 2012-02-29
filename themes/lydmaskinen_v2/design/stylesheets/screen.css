@@ -93,7 +93,7 @@ ul.PanelInfo { margin-left: 0; list-style-type: none; }
 
 /* Lydmaskinen V2 */
 /* Basics */
-body { font-family: Arial, sans-serif; background-color: #ebeef1; }
+body { font-family: Arial, sans-serif; background-color: #ebeef1; line-height: 14px; }
 
 a, a:active, a:visited { color: #365776; text-decoration: none; -moz-transition-property: color; -webkit-transition-property: color; -o-transition-property: color; transition-property: color; -moz-transition-duration: 200ms; -webkit-transition-duration: 200ms; -o-transition-duration: 200ms; transition-duration: 200ms; }
 a:hover, a:active:hover, a:visited:hover { color: #162330; }
@@ -131,10 +131,14 @@ h3, div.Box h4 { color: #202020; font-family: "helvetica neue", helvetica, arial
 #header-container .toolbar a:first-child { margin: 0 3px 0 0; }
 #header-container .toolbar a:hover .bubble { opacity: 1; }
 
-#searchbox { position: relative; top: 7px; clear: left; background-color: white; border-radius: 6px; border: 1px solid #e1e1e1; height: 25px; }
-#searchbox input[type='text'] { font-size: 14px; font-weight: 200; border: none; position: relative; top: 5px; width: 260px; }
-#searchbox input[type='submit'] { background: transparent url("../images/looking-glass.png") no-repeat 13px 5px; float: left; border: none; height: 20px; width: 33px; text-indent: -9999px; opacity: 0.6; -moz-transition-property: opacity; -webkit-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -moz-transition-duration: 200ms; -webkit-transition-duration: 200ms; -o-transition-duration: 200ms; transition-duration: 200ms; }
-#searchbox:hover input[type='submit'] { opacity: 1; }
+#searchbox { position: relative; top: 7px; clear: left; background-color: white; border-radius: 6px; border: 1px solid #e1e1e1; height: 25px; padding: 0; }
+#searchbox form { height: 25px; padding: 0; }
+#searchbox form input { padding-top: 0; }
+#searchbox form input[type='text'] { font-size: 14px; font-weight: 200; line-height: 12px; border: none; position: relative; top: 3px; width: 260px; }
+#searchbox form input[type='submit'] { background: transparent url("../images/looking-glass.png") no-repeat 13px 5px; float: left; border: none; height: 20px; width: 33px; text-indent: -9999px; opacity: 0.6; -moz-transition-property: opacity; -webkit-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -moz-transition-duration: 200ms; -webkit-transition-duration: 200ms; -o-transition-duration: 200ms; transition-duration: 200ms; }
+#searchbox form:hover input[type='submit'] { opacity: 1; }
+
+@-moz-document url-prefix() { #searchbox form input[type='text'] { top: 5px; } }
 
 nav { position: relative; top: 28px; }
 nav li { margin-left: 28px; float: left; }
@@ -181,8 +185,9 @@ ul.DataList li.Item h4 { margin-bottom: 6px; }
 ul.DataList.Discussions li.Item { padding: 16px 0; }
 ul.DataList.Discussions li.Item:first-child { padding-top: 0; }
 
-.MessageList .Item .Meta { height: 63px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
+.MessageList .Item .Meta { height: 63px; padding: 7px 16px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
 .MessageList .Item .Meta .Author .ProfileLink { float: left; }
+.MessageList .Item .Meta .Author .ProfileLink img { width: 50px; height: 50px; }
 .MessageList .Item .Message { font-size: 14px; padding: 16px; }
 .MessageList .Item .UserSignature { font-size: 12px; padding: 0 16px 16px; }
 .MessageList li.Item { background-color: white; border: 1px solid #e1e1e1; margin-bottom: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
@@ -204,7 +209,6 @@ ul.DataList.Discussions li.Item:first-child { padding-top: 0; }
 #topbanner { text-align: center; margin-bottom: 35px; }
 
 /* Profile */
-body.Profile .ProfilePhotoLarge { -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
 body.Profile #Content { margin: 0; width: 640px; float: left; }
 body.Profile #Content .Profile { background-color: white; border: 1px solid #e1e1e1; margin-bottom: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
 body.Profile #Content .Profile.headline h2 { -moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; -o-border-radius: 6px 6px 0 0; -ms-border-radius: 6px 6px 0 0; -khtml-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; }
