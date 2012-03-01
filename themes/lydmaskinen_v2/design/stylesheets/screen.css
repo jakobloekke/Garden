@@ -181,7 +181,6 @@ ul.iconlist .iconlist-content p { font-weight: 200; }
 
 ul.DataList li.Item { padding: 0 0 6px 0; }
 ul.DataList li.Item .ItemContent { margin: 0; line-height: 16px; }
-ul.DataList li.Item h4 { margin-bottom: 6px; }
 ul.DataList.Discussions li.Item { padding: 16px 0; }
 ul.DataList.Discussions li.Item:first-child { padding-top: 0; }
 
