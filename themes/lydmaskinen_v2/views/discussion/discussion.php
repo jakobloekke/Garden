@@ -27,11 +27,11 @@ $this->EventArguments['Type'] = 'Discussion';
        <div class="Meta">
          <span class="Author">
             <?php
-            echo UserPhoto($Author);
-            echo UserAnchor($Author);
+             echo UserPhoto($Author, "user_image");
+             echo UserAnchor($Author, "user_link");
             ?>
          </span>
-         <span class="MItem DateCreated">
+         <?php /*<span class="MItem DateCreated">
             <?php
             echo Anchor(Gdn_Format::Date($Discussion->DateInserted, 'html'), $Discussion->Url, 'Permalink', array('rel' => 'nofollow'));
             ?>
@@ -44,7 +44,7 @@ $this->EventArguments['Type'] = 'Discussion';
             echo Anchor($this->Data('Discussion.Category'), 'categories/'.$this->Data('Discussion.CategoryUrlCode'));
             echo '</span> ';
          }
-         ?>
+         ?>*/?>
          
          <?php $this->FireEvent('AfterDiscussionMeta'); ?>
       </div>

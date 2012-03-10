@@ -25,7 +25,7 @@
 
 			<nav class="rightcol">
 				<ul>
-					<li><a id="forum" href="forum.html" class="active">Forum</a></li>
+					<li><a id="forum" href="<?= Url('/'); ?>" class="active">Forum</a></li>
 					<li><a id="news" href="#">Nyheder</a></li>
 					<li><a id="marketplace" href="#">Marked</a></li>
 					<li><a id="tipsandtricks" href="#">Tips &amp; Tricks</a></li>
@@ -60,28 +60,29 @@
                 <?php if (Gdn::Session()->IsValid()) { ?>
                     <a class="profile" href="<?= Url('/profile')?>">Din profil</a>
                     &middot;
-                    <a class="favourites" href="#">
+                    <a class="favourites" href="<?= Url('/discussions/bookmarked')?>">
                         Favoritter
                         <?= showBubbleIfCount(Gdn::Session()->User->CountBookmarks, "red") ?>
                     </a>
                     &middot;
-                    <a class="yourposts" href="#">
+                    <a class="yourposts" href="<?= Url('/discussions/mine')?>">
                         Dine indlæg
+                        <?= showBubbleIfCount(Gdn::Session()->User->CountDiscussions, "red") ?>
                     </a>
                     &middot;
                     <a class="messages" href="#">
                         Beskeder
-                        <?= showBubbleIfCount(1, "red") ?>
+                        <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadConversations, "red") ?>
                     </a>
                     &middot;
                     <a class="newposts" href="#">
                         Nye indlæg
-                        <?= showBubbleIfCount(/*Gdn::Session()->User->CountUnreadDiscussions*/1, "blue") ?>
+                        <?= showBubbleIfCount(Gdn::Session()->User->CountUnreadDiscussions, "blue") ?>
                     </a>
                     &middot;
                     <a class="karma" href="#">
                         Karma
-                        <?= showBubbleIfCount(10, "green") ?>
+                        <?php //echo showBubbleIfCount(10, "green") ?>
                     </a>
 				<?php } ?>
 

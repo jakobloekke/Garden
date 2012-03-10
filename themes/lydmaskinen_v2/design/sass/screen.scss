@@ -292,54 +292,31 @@ nav{
 
 /* Forum */
 
+body.Discussion article {
+    .Meta {
+        height: 63px;
+        padding: 7px 16px;
+        @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
+
+        .Author {
+
+            .ProfileLink {
+                float: left;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
 #main article {
     section {
         @include rounded-box;
         display: block;
         width: 642px;
-
-        .post {
-            .left {
-                float: left;
-                margin: 0 1em 1em 0;
-            }
-            .right {
-            	float: right;
-            	margin: 0 0 1em 1em;
-            }
-            p {
-            	margin-bottom: 1em;
-            }
-            .attachment,
-            .link {
-            	font-size: 12px;
-            }
-        }
-
-        .toolbar {
-        	position: relative;
-            height: 30px;
-        	padding: 7px 17px;
-        	border-color: #e1e1e1;
-        	border-style: solid;
-        	border-width: 0;
-            &.top {
-                border-bottom-width: 1px;
-            }
-            &.bottom {
-                border-top-width: 1px;
-            }
-
-            a {
-                margin: 3px;
-                &:first-child{
-                    margin-left: 0;
-                }
-                &.like img {
-                 	margin-right: 7px;
-                }
-            }
-        }
 
         &.announcement .post {
             font-size: 14px;
@@ -347,6 +324,49 @@ nav{
 
         &.headline h2 {
             @include blue-header;
+        }
+    }
+
+    .post {
+        .left {
+            float: left;
+            margin: 0 1em 1em 0;
+        }
+        .right {
+            float: right;
+            margin: 0 0 1em 1em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        .attachment,
+        .link {
+            font-size: 12px;
+        }
+    }
+
+    .toolbar {
+        position: relative;
+        height: 30px;
+        padding: 7px 17px;
+        border-color: #e1e1e1;
+        border-style: solid;
+        border-width: 0;
+        &.top {
+            border-bottom-width: 1px;
+        }
+        &.bottom {
+            border-top-width: 1px;
+        }
+
+        a {
+            margin: 3px;
+            &:first-child{
+                margin-left: 0;
+            }
+            &.like img {
+                margin-right: 7px;
+            }
         }
     }
 
@@ -442,23 +462,7 @@ ul.DataList {
 
     // Common styles
     .Item {
-        .Meta {
-            height: 63px;
-            padding: 7px 16px;
-            @include background-image(linear-gradient(top,  white 1%, #f7f7f7 100%));
 
-            .Author {
-
-                .ProfileLink {
-                    float: left;
-
-                    img {
-                        width: 50px;
-                        height: 50px;
-                    }
-                }
-            }
-        }
 
         .Message
         {

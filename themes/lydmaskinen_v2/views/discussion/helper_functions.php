@@ -90,13 +90,13 @@ function WriteComment($Comment, $Sender, $Session, $CurrentOffset) {
        <div class="Meta">
          <span class="Author">
             <?php
-            echo UserPhoto($Author);
-            echo UserAnchor($Author);
+            echo UserPhoto($Author, "user_image");
+            echo UserAnchor($Author, "user_link");
             ?>
          </span>
-         <span class="MItem DateCreated">
+         <?php /*<span class="MItem DateCreated">
             <?php echo Anchor(Gdn_Format::Date($Comment->DateInserted, 'html'), $Permalink, 'Permalink', array('name' => 'Item_'.($CurrentOffset), 'rel' => 'nofollow')); ?>
-         </span>
+         </span>*/?>
          <?php
          // Include source if one was set
          if ($Source = GetValue('Source', $Comment))

@@ -151,20 +151,24 @@ nav #marketplace { width: 93px; background-position: -248px 3px; }
 nav #tipsandtricks { width: 157px; background-position: -375px 3px; }
 
 /* Forum */
+body.Discussion article .Meta { height: 63px; padding: 7px 16px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
+body.Discussion article .Meta .Author .ProfileLink { float: left; }
+body.Discussion article .Meta .Author .ProfileLink img { width: 50px; height: 50px; }
+
 #main article section { background-color: white; border: 1px solid #e1e1e1; margin-bottom: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; display: block; width: 642px; }
 #main article section.headline h2 { -moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; -o-border-radius: 6px 6px 0 0; -ms-border-radius: 6px 6px 0 0; -khtml-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; }
-#main article section .post .left { float: left; margin: 0 1em 1em 0; }
-#main article section .post .right { float: right; margin: 0 0 1em 1em; }
-#main article section .post p { margin-bottom: 1em; }
-#main article section .post .attachment, #main article section .post .link { font-size: 12px; }
-#main article section .toolbar { position: relative; height: 30px; padding: 7px 17px; border-color: #e1e1e1; border-style: solid; border-width: 0; }
-#main article section .toolbar.top { border-bottom-width: 1px; }
-#main article section .toolbar.bottom { border-top-width: 1px; }
-#main article section .toolbar a { margin: 3px; }
-#main article section .toolbar a:first-child { margin-left: 0; }
-#main article section .toolbar a.like img { margin-right: 7px; }
 #main article section.announcement .post { font-size: 14px; }
 #main article section.headline h2 { color: white; font-size: 14px; font-weight: bold; padding: 7px 15px; height: 30px; position: relative; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #678097), color-stop(24%, #365776), color-stop(79%, #365776), color-stop(100%, #678097)); background-image: -webkit-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -moz-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -o-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: -ms-linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); background-image: linear-gradient(top, #678097 1%, #365776 24%, #365776 79%, #678097 100%); }
+#main article .post .left { float: left; margin: 0 1em 1em 0; }
+#main article .post .right { float: right; margin: 0 0 1em 1em; }
+#main article .post p { margin-bottom: 1em; }
+#main article .post .attachment, #main article .post .link { font-size: 12px; }
+#main article .toolbar { position: relative; height: 30px; padding: 7px 17px; border-color: #e1e1e1; border-style: solid; border-width: 0; }
+#main article .toolbar.top { border-bottom-width: 1px; }
+#main article .toolbar.bottom { border-top-width: 1px; }
+#main article .toolbar a { margin: 3px; }
+#main article .toolbar a:first-child { margin-left: 0; }
+#main article .toolbar a.like img { margin-right: 7px; }
 #main article #newPost { font-size: 16px; }
 
 ul.DataList, ul.iconlist { margin-left: 0; list-style-type: none; padding: 15px; }
@@ -184,9 +188,6 @@ ul.DataList li.Item .ItemContent { margin: 0; line-height: 16px; }
 ul.DataList.Discussions li.Item { padding: 16px 0; }
 ul.DataList.Discussions li.Item:first-child { padding-top: 0; }
 
-.MessageList .Item .Meta { height: 63px; padding: 7px 16px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -moz-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -o-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: -ms-linear-gradient(top, #ffffff 1%, #f7f7f7 100%); background-image: linear-gradient(top, #ffffff 1%, #f7f7f7 100%); }
-.MessageList .Item .Meta .Author .ProfileLink { float: left; }
-.MessageList .Item .Meta .Author .ProfileLink img { width: 50px; height: 50px; }
 .MessageList .Item .Message { font-size: 14px; padding: 16px; }
 .MessageList .Item .UserSignature { font-size: 12px; padding: 0 16px 16px; }
 .MessageList li.Item { background-color: white; border: 1px solid #e1e1e1; margin-bottom: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
