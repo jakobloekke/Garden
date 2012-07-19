@@ -9,9 +9,8 @@
     <meta charset="UTF-8">
 
     <?php
-
-    $this->Head->addCSS("themes/lydmaskinen_v2/design/stylesheets/screen.css");
-    $this->RenderAsset('Head');
+        $this->Head->addCSS("themes/lydmaskinen_v2/design/stylesheets/screen.css");
+        $this->RenderAsset('Head');
     ?>
 
 </head>
@@ -49,7 +48,7 @@
          * @param $count
          * @param $cssClass CSS class that matches a color name
          * @todo Get this into generalized function file!!!
-         * @return string
+         * @return string of HTML
          */
         function showBubbleIfCount($count, $cssClass)
         {
@@ -90,14 +89,14 @@
             <?php } ?>
 
             <span class="stayright">
-					<a class="rules" href="#">Regler</a>
+                <a class="rules" href="#">Regler</a>
                 &middot;
                 <?php if (Gdn::Session()->IsValid()) { ?>
                 <a class="logout SignInPopup" href="<?= Url('/entry/signout')?>">Log ud</a>
                 <?php } else { ?>
                 <a class="login SignInPopup" href="<?= Url('/entry/signin')?>">Log ind</a>
                 <?php } ?>
-				</span>
+            </span>
         </div>
     </header>
 </div>
